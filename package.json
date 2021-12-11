@@ -1,0 +1,14 @@
+{
+    "description": "Sergey Konstantinov. Beer: a Lecture (Tasting Included)",
+    "homepage": "https://github.com/twirl/Beer-Lecture",
+    "type": "module",
+    "license": "CC-BY-NC-4.0",
+    "author": "Sergey Konstantinov <twirl-team@yandex.ru>",
+    "repository": "github.com:twirl/Beer-Lecture",
+    "devDependencies": {
+        "@twirl/book-builder": "^0.0.11"
+    },
+    "scripts": {
+        "build": "node build.mjs"
+    }
+}
