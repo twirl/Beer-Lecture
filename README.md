@@ -5,8 +5,8 @@ Beer. The most modest and unassuming beverage, a filler for supermarket shelves.
 This is the working repository for ‘Beer: a Lecture (Tasting Included)’ book being written by Sergey Konstantinov ([email](mailto:twirl-team@yandex.ru), [Linkedin profile](https://linkedin.com/in/twirl)). **The work is very much in progress**. You may support the author [on Patreon](https://www.patreon.com/yatwirl).
 
 You may find an `.html`, `.epub` or `.pdf` version of the book in the `docs` folder, or read it online.
-  * In English: [html](https://twirl.github.io/Beer-Lecture/docs/Beer.en.html), [epub](https://twirl.github.io/Beer-Lecture/docs/Beer.en.epub), [pdf](https://twirl.github.io/Beer-Lecture/docs/Beer.en.pdf)
-  * In Russian: [html](https://twirl.github.io/Beer-Lecture/docs/Beer.ru.html), [epub](https://twirl.github.io/Beer-Lecture/docs/API.ru.epub), [pdf](https://twirl.github.io/Beer-Lecture/docs/API.ru.pdf)
+  * In English: [html](https://twirl.github.io/Beer-Lecture/Sergey%20Konstantinov.%20Beer%20-%20a%20Lecture%20(Tasting%20Included).en.html), [epub](https://twirl.github.io/Beer-Lecture/Sergey%20Konstantinov.%20Beer%20-%20a%20Lecture%20(Tasting%20Included).en.epub), [pdf](https://twirl.github.io/Beer-Lecture/Sergey%20Konstantinov.%20Beer%20-%20a%20Lecture%20(Tasting%20Included).en.pdf)
+  * In Russian: [html](https://twirl.github.io/Beer-Lecture/Sergey%20Konstantinov.%20Beer%20-%20a%20Lecture%20(Tasting%20Included).ru.html), [epub](https://twirl.github.io/Beer-Lecture/Sergey%20Konstantinov.%20Beer%20-%20a%20Lecture%20(Tasting%20Included).ru.epub), [pdf](https://twirl.github.io/Beer-Lecture/Sergey%20Konstantinov.%20Beer%20-%20a%20Lecture%20(Tasting%20Included).ru.pdf)
 
 The work is very much in progress and will comprise three volumes:
   * ‘From Sumerians to Sadi Carnot’, dedicated to the history of beer and brewing since the mammoth era up until to invention of modern beer-making technology;
