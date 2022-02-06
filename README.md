@@ -20,5 +20,7 @@ This book is distributed under a Creative Commons Attribution-NonCommercial 4.0 
 See full license in LICENSE.md file or at [Creative Commons Website](http://creativecommons.org/licenses/by-nc/4.0/).
 
 Thanks [art.mari.ka](https://www.instagram.com/art.mari.ka/) for the cover picture & inspiration
+
 Thanks [Friedrich Althausen](https://www.instagram.com/falthausen/) for Vollkorn
+
 Thanks [Google](https://fonts.google.com/noto) for Noto
