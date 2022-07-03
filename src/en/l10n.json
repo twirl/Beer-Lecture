@@ -3,11 +3,30 @@
     "author": "Sergey Konstantinov",
     "chapter": "Chapter",
     "toc": "Table of Contents",
-    "frontPage": "Front Page",
     "description": "Beer. The most modest and unassuming beverage, a filler for supermarket shelves. At the same time—a staple of the economies of many nations for millennia. Egyptian pyramid builders were paid with it, polar explorers took it to the North Pole as a life-sustaining product, workers of Brussels once rioted because its price was up by two centimes. In this book, a centuries-long beer history is told in a comprehensive, interesting, and *practical* manner. You will learn which beer styles were popular in each epoch, from Bronze Age to the 21st century, understand the reasons behind this popularity, and most importantly, explore the history by taste.",
     "locale": "en_US",
     "file": "Sergey Konstantinov. Beer - a Lecture (Tasting Included)",
-    "url": "https://twirl.github.io/Beer-Lecture/docs/Beer.en.html",
+    "landingFile": "index.html",
+    "url": "https://twirl.github.io/Beer-Lecture/",
+    "favicon": "/img/favicon.jpg",
+    "links": {
+        "email": "yatwirl@gmail.com",
+        "emailString": "yatwirl@gmail.com",
+        "linkedinHref": "https://www.linkedin.com/in/twirl/",
+        "linkedinString": "linkedin.com/in/twirl",
+        "patreonHref": "https://www.patreon.com/yatwirl",
+        "patreonString": "patreon.com/yatwirl",
+        "patreonTag": "Patreon",
+        "githubHref": "https://github.com/twirl/Beer-Lecture",
+        "githubString": "github.com/twirl/Beer-Lecture",
+        "instagramHref": "https://www.instagram.com/beer.lecturer/",
+        "facebookHref": "https://www.facebook.com/Beer.Lecturer/",
+        "redditHref": "https://www.reddit.com/user/yatwirl",
+        "twitterHref": "https://twitter.com/blogovodoved",
+        "mediumHref": "https://twitter.com/blogovodoved",
+        "mediumTag": "Medium"
+    },
+    "sourceCodeAt": "Source code available at",
     "imageCredit": "Image Credit",
     "publicDomain": "Public Domain",
     "references": "References",
@@ -18,5 +37,93 @@
     "refChapter": "see chapter",
     "isbn": "ISBN",
     "funFact": "It's interesting",
-    "beerMyth": "Beer Myth"
+    "beerMyth": "Beer Myth",
+    "frontPage": {
+        "title": "Beer: a Lecture",
+        "subTitle": "(tasting<br/>included)",
+        "pageTitle": "Front Page",
+        "contents": [
+            "<p>Beer. The most modest and unassuming beverage, a filler for supermarket shelves. At the same time — a staple of the economies of many nations for millennia. Egyptian pyramid builders were paid with it, polar explorers took it to the North Pole as a life-sustaining product, workers of Brussels once rioted because its price was up by two centimes.</p>",
+            "<p>In this book, a centuries-long beer history is told in a comprehensive, interesting, and <em>practical</em> manner. You will learn which beer styles were popular in each epoch, from Bronze Age to the 21st century, understand the reasons behind this popularity, and most importantly, explore the history by taste.</p>",
+            "<p>Illustrations &amp; inspiration by Maria Konstantinova &middot; <a href=\"https://www.instagram.com/art.mari.ka/\">art.mari.ka</a></p>",
+            "<img class=\"cc-by-nc-img\" alt=\"Creative Commons «Attribution-NonCommercial» Logo\" src=\"https://i.creativecommons.org/l/by-nc/4.0/88x31.png\"/>",
+            "<p class=\"cc-by-nc\">This book is distributed under the <a href=\"http://creativecommons.org/licenses/by-nc/4.0/\">Creative Commons Attribution-NonCommercial 4.0 International licence</a>.</p>"
+        ]
+    },
+    "landing": {
+        "subTitle": "Free e-book",
+        "subscribeOn": "Subscribe for updates on",
+        "updates": ["instagram", "facebook", "github", "reddit"],
+        "followOn": "Follow me on",
+        "follow": ["linkedin", "twitter", "medium"],
+        "supportThisWork": "Support this work on",
+        "support": ["patreon"],
+        "content": [
+            "<p>This is a free e-book dedicated to history of beer and historical beers. In this book, a centuries-long tale is told in a comprehensive, interesting, and practical manner. You will learn which beer styles were popular in each epoch, from Bronze Age to the 21st century, understand the reasons behind this popularity, and most importantly, explore the history by taste.</p>"
+        ],
+        "download": "You might download ‘Beer: a Lecture’ in",
+        "or": "or",
+        "readOnline": "read it online",
+        "license": "This book is distributed under the <a href=\"http://creativecommons.org/licenses/by-nc/4.0/\">Creative Commons Attribution-NonCommercial 4.0 International licence</a>.",
+        "footer": [
+            "<p>Illustration &amp; inspiration: <a href=\"https://www.instagram.com/art.mari.ka/\">art.mari.ka</a>.</p>",
+            "<p>«Пивную лекцию (с дегустацией)» можно <a href=\"index.ru.html\">читать по-русски</a>.</p>"
+        ]
+    },
+    "contents": [
+        { "chapters": ["", ""] },
+        {
+            "chapters": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "It's All about Water",
+                "The Red Triangle",
+                "Age of Empires",
+                "A Series of Unfortunate Events"
+            ]
+        },
+        {
+            "title": "The Globe of Belgium",
+            "chapters": [
+                "Orange Peel, Coriander, and Pierre Celis",
+                "White, Yellow, and Brown",
+                "Biology and Chemistry",
+                "March",
+                "Red and Brown",
+                "Spéciale Belge",
+                "The Rosé of Brussels",
+                "Not Brewers",
+                "The White Cap",
+                "The Valley of Gold",
+                "Gradus ad Parnassum",
+                "The Devil for Sale"
+            ]
+        },
+        {
+            "title": "The New Hope",
+            "chapters": [
+                "The Chronicles of the Catastrophe",
+                "The Revitalisation",
+                "American English",
+                "USDA 56013",
+                "4C",
+                "New Belgium",
+                "The Alchemist from Vermont",
+                "The Three Whales"
+            ]
+        },
+        {
+            "title": "Appendix",
+            "chapters": [
+                "On Beer Styles, Ratings, and Recommendations",
+                "The Summary Table of the Recommended Tastings"
+            ]
+        }
+    ]
 }
