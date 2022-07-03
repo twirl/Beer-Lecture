@@ -113,6 +113,7 @@ code {
 p img,
 .img-wrapper img {
     max-width: 100%;
+    max-height: 40em;
 }
 
 .img-wrapper {
