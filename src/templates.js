@@ -143,6 +143,10 @@ export default {
                 width: 1.392em;
             }
 
+            a.telegram {
+                background-image: url(assets/telegram.png);
+            }
+
             a.patreon,
             a.medium {
                 width: auto;

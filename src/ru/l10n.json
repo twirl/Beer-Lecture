@@ -22,7 +22,8 @@
         "pikabuHref": "https://pikabu.ru/@twirl",
         "pikabuTag": "Пикабу",
         "zenHref": "https://zen.yandex.ru/beer_lecturer",
-        "zenTag": "Яндекс.Дзен"
+        "zenTag": "Яндекс.Дзен",
+        "telegramHref": "https://t.me/beer_lecturer"
     },
     "sourceCodeAt": "Исходный код доступен на ",
     "imageCredit": "Image Credit",
@@ -51,7 +52,7 @@
     "landing": {
         "subTitle": "Бесплатная электронная книга",
         "subscribeOn": "Подпишитесь на обновления на",
-        "updates": ["pikabu", "zen"],
+        "updates": ["telegram", "pikabu", "zen"],
         "supportThisWork": "Поддержите эту работу на",
         "support": ["patreon"],
         "content": [
