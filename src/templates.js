@@ -59,153 +59,12 @@ export default {
             property="og:url"
             content="${l10n.links.githubHref}"
         />
-        <style>
-            @font-face {
-                font-family: local-serif;
-                src: url(assets/Vollkorn-VariableFont_wght.ttf);
-            }
-
-            * {
-                margin: 0;
-                padding: 0;
-                border: none;
-                font-family: local-serif, Arial, Helvetica, sans-serif;
-                font-size: 14pt;
-                list-style-type: none;
-            }
-
-            ul > li {
-                padding-left: 1em;
-            }
-
-            p {
-                margin: 1em 0;
-            }
-
-            body {
-                margin: 5px;
-            }
-
-            nav {
-                text-align: center;
-            }
-
-            nav a {
-                vertical-align: -12%;
-                content: ' ';
-                width: 1em;
-                height: 1em;
-                display: inline-block;
-                background-position: 0 0;
-                background-size: auto 100%;
-                background-repeat: no-repeat;
-                text-decoration: none;
-            }
-
-            h1, h2 {
-                padding: unset;
-                margin: unset;
-                line-height: unset;
-            }
-
-            h1 {
-                font-size: 1.2em;
-            }
-
-            h3 {
-                font-size: 1em;
-            }
-
-            a.instagram {
-                background-image: url(assets/instagram.svg);
-            }
-
-            a.facebook {
-                background-image: url(assets/facebook.png);
-            }
-
-            a.github {
-                background-image: url(assets/github.jpg);
-                width: 1.2em;
-            }
-
-            a.reddit {
-                background-image: url(assets/reddit.png);
-            }
-
-            a.linkedin {
-                background-image: url(assets/linkedin.png);
-                width: 1.176em;
-            }
-
-            a.twitter {
-                background-image: url(assets/twitter.svg);
-                width: 1.392em;
-            }
-
-            a.telegram {
-                background-image: url(assets/telegram.png);
-            }
-
-            a.patreon,
-            a.medium {
-                width: auto;
-                padding-left: 1em;
-                vertical-align: baseline;
-                background-position: 0 0.1em;
-            }
-
-            a.patreon {
-                background-image: url(assets/patreon.png);
-            }
-
-            a.medium {
-                background-image: url(assets/medium.png);
-                padding-left: 1.3em;
-                background-size: 1.42em 1em;
-            }
-
-            a.pikabu {
-                background-image: url(assets/pikabu.png);
-                width: auto;
-                padding-left: 1em;
-                vertical-align: baseline;
-                background-position: 0 0.1em;
-            }
-
-            a.zen {
-                background-image: url(assets/zen.svg);
-                background-position: 0 0.2em;
-                background-size: 0.8em;
-                width: auto;
-                padding-left: 1em;
-                vertical-align: baseline;
-            }
-
-            body img {
-                width: 80%;
-            }
-
-            @media (min-width: 1010px) {
-                body {
-                    width: 1000px;
-                    margin: 5px auto;
-                    text-align: justify;
-                }
-            }
-
-            @media (min-width: 2000px) {
-                body {
-                    width: auto;
-                    margin: 5px 25%;
-                    text-align: justify;
-                }
-            }
-        </style>
+        <link rel="stylesheet" media="all" href="assets/landing.css" />
     </head>
     <body>
         <nav>
             <img
+                class="header"
                 src="assets/header.jpg"
                 alt="${l10n.author}. ${l10n.title}"
             /><br />
@@ -249,7 +108,7 @@ export default {
             l10n.landing.or
         } <a href="${link()}">${l10n.landing.readOnline}</a>.
         </p>
-        <h3>${l10n.toc}</h3>
+        <h2>${l10n.toc}</h2>
         <ul>${l10n.contents
             .map((section, i) => {
                 const written = structure.sections.slice(
@@ -294,6 +153,12 @@ export default {
         <p>${l10n.sourceCodeAt} <a href="${l10n.links.githubHref}">${
             l10n.links.githubString
         }</a></p>
+        <h3>${l10n.aboutMe.title}</h3>
+        <section class="about-me">
+            <aside><img src="https://konstantinov.cc/static/me.png"/></aside>
+            <div class="content">
+            ${l10n.aboutMe.content.join('\n')}</div>
+        </section>
         ${l10n.landing.footer.join('\n')}
     </body>
 </html>`;

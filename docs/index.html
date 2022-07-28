@@ -26,153 +26,12 @@
             property="og:url"
             content="https://github.com/twirl/Beer-Lecture"
         />
-        <style>
-            @font-face {
-                font-family: local-serif;
-                src: url(assets/Vollkorn-VariableFont_wght.ttf);
-            }
-
-            * {
-                margin: 0;
-                padding: 0;
-                border: none;
-                font-family: local-serif, Arial, Helvetica, sans-serif;
-                font-size: 14pt;
-                list-style-type: none;
-            }
-
-            ul > li {
-                padding-left: 1em;
-            }
-
-            p {
-                margin: 1em 0;
-            }
-
-            body {
-                margin: 5px;
-            }
-
-            nav {
-                text-align: center;
-            }
-
-            nav a {
-                vertical-align: -12%;
-                content: ' ';
-                width: 1em;
-                height: 1em;
-                display: inline-block;
-                background-position: 0 0;
-                background-size: auto 100%;
-                background-repeat: no-repeat;
-                text-decoration: none;
-            }
-
-            h1, h2 {
-                padding: unset;
-                margin: unset;
-                line-height: unset;
-            }
-
-            h1 {
-                font-size: 1.2em;
-            }
-
-            h3 {
-                font-size: 1em;
-            }
-
-            a.instagram {
-                background-image: url(assets/instagram.svg);
-            }
-
-            a.facebook {
-                background-image: url(assets/facebook.png);
-            }
-
-            a.github {
-                background-image: url(assets/github.jpg);
-                width: 1.2em;
-            }
-
-            a.reddit {
-                background-image: url(assets/reddit.png);
-            }
-
-            a.linkedin {
-                background-image: url(assets/linkedin.png);
-                width: 1.176em;
-            }
-
-            a.twitter {
-                background-image: url(assets/twitter.svg);
-                width: 1.392em;
-            }
-
-            a.telegram {
-                background-image: url(assets/telegram.png);
-            }
-
-            a.patreon,
-            a.medium {
-                width: auto;
-                padding-left: 1em;
-                vertical-align: baseline;
-                background-position: 0 0.1em;
-            }
-
-            a.patreon {
-                background-image: url(assets/patreon.png);
-            }
-
-            a.medium {
-                background-image: url(assets/medium.png);
-                padding-left: 1.3em;
-                background-size: 1.42em 1em;
-            }
-
-            a.pikabu {
-                background-image: url(assets/pikabu.png);
-                width: auto;
-                padding-left: 1em;
-                vertical-align: baseline;
-                background-position: 0 0.1em;
-            }
-
-            a.zen {
-                background-image: url(assets/zen.svg);
-                background-position: 0 0.2em;
-                background-size: 0.8em;
-                width: auto;
-                padding-left: 1em;
-                vertical-align: baseline;
-            }
-
-            body img {
-                width: 80%;
-            }
-
-            @media (min-width: 1010px) {
-                body {
-                    width: 1000px;
-                    margin: 5px auto;
-                    text-align: justify;
-                }
-            }
-
-            @media (min-width: 2000px) {
-                body {
-                    width: auto;
-                    margin: 5px 25%;
-                    text-align: justify;
-                }
-            }
-        </style>
+        <link rel="stylesheet" media="all" href="assets/landing.css" />
     </head>
     <body>
         <nav>
             <img
+                class="header"
                 src="assets/header.jpg"
                 alt="Sergey Konstantinov. Beer: A Lecture (Tasting Included)"
             /><br />
@@ -184,9 +43,10 @@
             <br />🍻🍻🍻
         </nav>
         <p>This is a free e-book dedicated to history of beer and historical beers. In this book, a centuries-long tale is told in a comprehensive, interesting, and practical manner. You will learn which beer styles were popular in each epoch, from Bronze Age to the 21st century, understand the reasons behind this popularity, and most importantly, explore the history by taste.</p>
+<p>Illustration &amp; inspiration: <a href="https://www.instagram.com/art.mari.ka/">art.mari.ka</a>.</p>
         <p>You might download ‘Beer: a Lecture’ in <a href="Sergey%20Konstantinov.%20Beer%20-%20a%20Lecture%20(Tasting%20Included).en.pdf">PDF</a>, <a href="Sergey%20Konstantinov.%20Beer%20-%20a%20Lecture%20(Tasting%20Included).en.epub">EPUB</a>, or <a href="Sergey%20Konstantinov.%20Beer%20-%20a%20Lecture%20(Tasting%20Included).en.html">read it online</a>.
         </p>
-        <h3>Table of Contents</h3>
+        <h2>Table of Contents</h2>
         <ul><li>
                     <h4><a href="Sergey%20Konstantinov.%20Beer%20-%20a%20Lecture%20(Tasting%20Included).en.html#section-1">Preface</a></h4>
                     <ul>
@@ -251,7 +111,14 @@
     <li><h4><a href="Sergey%20Konstantinov.%20Beer%20-%20a%20Lecture%20(Tasting%20Included).en.html#bibliography">Bibliography</a></h4></li></ul>
         <p>This book is distributed under the <a href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International licence</a>.</p>
         <p>Source code available at <a href="https://github.com/twirl/Beer-Lecture">github.com/twirl/Beer-Lecture</a></p>
-        <p>Illustration &amp; inspiration: <a href="https://www.instagram.com/art.mari.ka/">art.mari.ka</a>.</p>
-<p>«Пивную лекцию (с дегустацией)» можно <a href="index.ru.html">читать по-русски</a>.</p>
+        <h3>About the Author</h3>
+        <section class="about-me">
+            <aside><img src="https://konstantinov.cc/static/me.png"/></aside>
+            <div class="content">
+            <p>Sergey Konstantinov's main occupation is software engineering, and he never yearned to write popular-science books — he just loved beer and knowing more about what he loves.</p>
+<p>But once one tries to go deeper — they will soon learn that beer and brewing history is a very fascinating subject that for centuries suffered from the lack of the scholars' attention and the oversupply of the marketologists' one.</p>
+<p>That's how this book was born, written by a person who is not a professional historian and just tries to learn things thoroughly.</div>
+        </section>
+        <p>«Пивную лекцию (с дегустацией)» можно <a href="index.ru.html">читать по-русски</a>.</p>
     </body>
 </html>

@@ -1,0 +1,163 @@
+@font-face {
+    font-family: local-serif;
+    src: url(Vollkorn-VariableFont_wght.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: local-serif, Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    list-style-type: none;
+}
+
+ul > li {
+    padding-left: 1em;
+}
+
+p, body > ul, h3 {
+    margin: 0 0 1em 0;
+}
+
+body {
+    margin: 5px;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    vertical-align: -12%;
+    content: ' ';
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    background-position: 0 0;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    text-decoration: none;
+}
+
+h1, h2 {
+    padding: unset;
+    margin: unset;
+    line-height: unset;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+h2, h3 {
+    font-size: 1.2em;
+}
+
+a.instagram {
+    background-image: url(instagram.svg);
+}
+
+a.facebook {
+    background-image: url(facebook.png);
+}
+
+a.github {
+    background-image: url(github.jpg);
+    width: 1.2em;
+}
+
+a.reddit {
+    background-image: url(reddit.png);
+}
+
+a.linkedin {
+    background-image: url(linkedin.png);
+    width: 1.176em;
+}
+
+a.twitter {
+    background-image: url(twitter.svg);
+    width: 1.392em;
+}
+
+a.telegram {
+    background-image: url(telegram.png);
+}
+
+a.patreon,
+a.medium {
+    width: auto;
+    padding-left: 1em;
+    vertical-align: baseline;
+    background-position: 0 0.1em;
+}
+
+a.patreon {
+    background-image: url(patreon.png);
+}
+
+a.medium {
+    background-image: url(medium.png);
+    padding-left: 1.3em;
+    background-size: 1.42em 1em;
+}
+
+a.pikabu {
+    background-image: url(pikabu.png);
+    width: auto;
+    padding-left: 1em;
+    vertical-align: baseline;
+    background-position: 0 0.1em;
+}
+
+a.zen {
+    background-image: url(zen.svg);
+    background-position: 0 0.2em;
+    background-size: 0.8em;
+    width: auto;
+    padding-left: 1em;
+    vertical-align: baseline;
+}
+
+img.header {
+    width: 80%;
+}
+
+.about-me {
+    display: flex;
+    flex-flow: row-reverse wrap;
+    gap: 0.5em;
+    justify-content: center;
+}
+
+.about-me aside {
+    min-width: 200px;
+    max-width: 400px;
+    padding-top: 0.4em;
+}
+
+.about-me aside img {
+    width: 100%;
+}
+
+.about-me .content {
+    flex-basis: 320px;
+    flex-grow: 2;
+}
+
+@media (min-width: 1010px) {
+    body {
+        width: 1000px;
+        margin: 5px auto;
+        text-align: justify;
+    }
+}
+
+@media (min-width: 2000px) {
+    body {
+        width: auto;
+        margin: 5px 25%;
+        text-align: justify;
+    }
+}

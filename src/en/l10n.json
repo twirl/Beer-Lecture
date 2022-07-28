@@ -6,6 +6,14 @@
     "description": "Beer. The most modest and unassuming beverage, a filler for supermarket shelves. At the same time—a staple of the economies of many nations for millennia. Egyptian pyramid builders were paid with it, polar explorers took it to the North Pole as a life-sustaining product, workers of Brussels once rioted because its price was up by two centimes. In this book, a centuries-long beer history is told in a comprehensive, interesting, and *practical* manner. You will learn which beer styles were popular in each epoch, from Bronze Age to the 21st century, understand the reasons behind this popularity, and most importantly, explore the history by taste.",
     "locale": "en_US",
     "file": "Sergey Konstantinov. Beer - a Lecture (Tasting Included)",
+    "aboutMe": {
+        "title": "About the Author",
+        "content": [
+            "<p>Sergey Konstantinov's main occupation is software engineering, and he never yearned to write popular-science books — he just loved beer and knowing more about what he loves.</p>",
+            "<p>But once one tries to go deeper — they will soon learn that beer and brewing history is a very fascinating subject that for centuries suffered from the lack of the scholars' attention and the oversupply of the marketologists' one.</p>",
+            "<p>That's how this book was born, written by a person who is not a professional historian and just tries to learn things thoroughly."
+        ]
+    },
     "landingFile": "index.html",
     "url": "https://twirl.github.io/Beer-Lecture/",
     "favicon": "/img/favicon.jpg",
@@ -59,14 +67,14 @@
         "supportThisWork": "Support this work on",
         "support": ["patreon"],
         "content": [
-            "<p>This is a free e-book dedicated to history of beer and historical beers. In this book, a centuries-long tale is told in a comprehensive, interesting, and practical manner. You will learn which beer styles were popular in each epoch, from Bronze Age to the 21st century, understand the reasons behind this popularity, and most importantly, explore the history by taste.</p>"
+            "<p>This is a free e-book dedicated to history of beer and historical beers. In this book, a centuries-long tale is told in a comprehensive, interesting, and practical manner. You will learn which beer styles were popular in each epoch, from Bronze Age to the 21st century, understand the reasons behind this popularity, and most importantly, explore the history by taste.</p>",
+            "<p>Illustration &amp; inspiration: <a href=\"https://www.instagram.com/art.mari.ka/\">art.mari.ka</a>.</p>"
         ],
         "download": "You might download ‘Beer: a Lecture’ in",
         "or": "or",
         "readOnline": "read it online",
         "license": "This book is distributed under the <a href=\"http://creativecommons.org/licenses/by-nc/4.0/\">Creative Commons Attribution-NonCommercial 4.0 International licence</a>.",
         "footer": [
-            "<p>Illustration &amp; inspiration: <a href=\"https://www.instagram.com/art.mari.ka/\">art.mari.ka</a>.</p>",
             "<p>«Пивную лекцию (с дегустацией)» можно <a href=\"index.ru.html\">читать по-русски</a>.</p>"
         ]
     },
