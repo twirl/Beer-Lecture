@@ -153,7 +153,7 @@ export default {
         <p>${l10n.sourceCodeAt} <a href="${l10n.links.githubHref}">${
             l10n.links.githubString
         }</a></p>
-        <h3>${l10n.aboutMe.title}</h3>
+        <h3 name="about-author">${l10n.aboutMe.title}</h3>
         <section class="about-me">
             <aside><img src="https://konstantinov.cc/static/me.png"/></aside>
             <div class="content">
