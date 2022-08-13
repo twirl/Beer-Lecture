@@ -155,9 +155,10 @@ export default {
         }</a></p>
         <h3 name="about-author">${l10n.aboutMe.title}</h3>
         <section class="about-me">
-            <aside><img src="https://konstantinov.cc/static/me.png"/></aside>
-            <div class="content">
-            ${l10n.aboutMe.content.join('\n')}</div>
+            <aside><img src="https://konstantinov.cc/static/me.png"/><br/>${
+                l10n.aboutMe.imageCredit
+            }</aside>
+            <div class="content">${l10n.aboutMe.content.join('\n')}</div>
         </section>
         ${l10n.landing.footer.join('\n')}
     </body>
