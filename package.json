@@ -6,9 +6,13 @@
     "author": "Sergey Konstantinov <twirl-team@yandex.ru>",
     "repository": "github.com:twirl/Beer-Lecture",
     "devDependencies": {
-        "@twirl/book-builder": "^0.0.12"
+        "@twirl/book-builder": "^0.0.17"
     },
     "scripts": {
-        "build": "node build.mjs"
+        "build": "node build.mjs",
+        "build:watch": "nodemon -e md,js,mjs,css,json --exec npm run build ru html 1-5"
+    },
+    "dependencies": {
+        "nodemon": "^2.0.19"
     }
 }

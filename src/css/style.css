@@ -1,6 +1,5 @@
-html {
-    width: 100%;
-    min-width: 540px;
+html,
+body {
     margin: 0;
     padding: 0;
     text-underline-offset: 2px;
@@ -16,6 +15,10 @@ html {
 
 .text-align-right {
     text-align: right;
+}
+
+.display-none {
+    display: none;
 }
 
 @font-face {
@@ -189,7 +192,7 @@ h6 a {
 }
 
 h1 {
-    font-size: 200%;
+    font-size: 1.5em;
     text-align: center;
 }
 
@@ -212,10 +215,6 @@ h5 {
     margin: 0;
     line-height: inherit;
     font-weight: 500;
-}
-
-.annotation {
-    text-align: left;
 }
 
 ul.table-of-contents {
@@ -317,78 +316,4 @@ ul.references li a.back-anchor {
 
 sup {
     font-size: 60%;
-}
-
-@media screen {
-    body {
-        margin: 2em auto;
-        max-width: 60%;
-    }
-
-    a.anchor:before {
-        display: inline-block;
-        content: '¶';
-        width: 0.8em;
-        color: lightgray;
-        text-indent: 0;
-    }
-
-    h5 a.anchor:before {
-        color: transparent;
-    }
-
-    a.anchor:hover:before {
-        color: black;
-    }
-
-    h2:not(.toc),
-    h3 {
-        text-indent: -0.8em;
-    }
-
-    ul.references li p {
-        display: flex;
-        margin-left: -2em;
-    }
-
-    ul.references li p a.back-anchor {
-        width: 1.7em;
-        flex-shrink: 0;
-    }
-}
-
-@media screen and (max-width: 1000px) {
-    body {
-        padding: 2em;
-        margin: 0;
-        max-width: none;
-        text-align: left;
-    }
-
-    pre {
-        margin: 0;
-        padding: 0.2em;
-    }
-
-    ul,
-    ol {
-        padding-left: 1em;
-    }
-
-    ul.references li p {
-        margin-left: 0;
-    }
-
-    ul.references li p a.back-anchor {
-        width: auto;
-    }
-
-    table {
-        padding: 0;
-        font-size: 70%;
-    }
-    table td,
-    table th {
-        padding: 0;
-    }
 }

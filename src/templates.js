@@ -1,29 +1,95 @@
+import { readFileSync } from 'fs';
+import { resolve } from 'path';
+
 export default {
     pageBreak: '<div class="page-break"></div>',
     h5Value: ({ value }) => value,
     alignClassName: (align) => `text-align-${align}`,
 
-    frontPage: (l10n) => `
+    mainContent: (content) => `<section class="main-content">
+<nav class="page-main"><ul class="nav-folded">
+    <li class="share"></li>
+    <li class="para">§</li>
+</ul></nav>${content}</section>`,
+
+    screenContent: (content, css, { structure, l10n, templates }) =>
+        `${templates.sidePanel({
+            structure,
+            l10n,
+            templates
+        })}<article>${content}</article>${templates.mainScript(l10n)}`,
+
+    mainScript: () =>
+        `<script>${readFileSync(resolve('./src/scripts/sidebar.js'))}</script>`,
+
+    sidePanel: ({
+        structure,
+        l10n,
+        templates
+    }) => `<div class="fade display-none"></div>
+<aside class="side-panel display-none">
+    <h3 class="title">${l10n.author}. ${l10n.title}</h3>
+    ${templates.shareControl({ l10n, templates })}
+    <section class="side-toc">${templates.toc(structure, l10n)}</section>
+    <button type="button" class="close"></button></aside>`,
+
+    shareControl: ({ l10n, templates }) => `<ul class="share text-align-left">
+<li>${l10n.sidePanel.shareTo}:</li>
+    ${l10n.sidePanel.services
+        .map(
+            ({ key, link }) =>
+                `<li><a class="share share-${key}" href="${templates.shareLink(
+                    link,
+                    l10n.sidePanel.shareParameters
+                )}" target="_blank"> </a></li>`
+        )
+        .join('')}
+        <li class="copy-link">${
+            l10n.sidePanel.copyLink
+        }: <input type="text" value="${
+        l10n.sidePanel.shareParameters.url
+    }"/><button type="button" class="copy-button"></button></li>
+</ul>`,
+
+    shareList: ({ l10n, templates }) => `<p class="share text-align-left">${
+        l10n.sidePanel.shareTo
+    }:
+${l10n.sidePanel.services
+    .map(
+        ({ key, link }) =>
+            `<a class="share share-${key}" href="${templates.shareLink(
+                link,
+                l10n.sidePanel.shareParameters
+            )}" target="_blank">${key}</a>`
+    )
+    .join(' · ')}</p>`,
+
+    frontPage: ({ templates, l10n }) => `
 <div class="cover">
     <h1>
-    <span class="author">${l10n.author}</span><br /><span class="title"
+    <span class="author">${l10n.author}</span><span class="title"
         >${l10n.frontPage.title}</span
-    ><br /><em>${l10n.frontPage.subTitle}</em>
+    ><em>${l10n.frontPage.subTitle}</em>
     </h1>
-</div><div class="page-break"></div><div class="annotation"><p>
+</div><div class="page-break"></div><div class="annotation"><p class=\"text-align-left\">
     <strong>${l10n.author}. ${l10n.title}.</strong><br />
     <a target="_blank" href="mailto:${l10n.links.email}">${
         l10n.links.emailString
-    }</a> &middot; <a target="_blank" href="${l10n.links.linkedinHref}">${
+    }</a> &middot; <a target="_blank" href="${l10n.links.linkedinHref}">${
         l10n.links.linkedinString
-    }</a> &middot; <a target="_blank" href="${l10n.links.patreonHref}">${
+    }</a> &middot; <a target="_blank" href="${l10n.links.patreonHref}">${
         l10n.links.patreonString
     }</a></p>
     ${l10n.frontPage.contents.join('\n')}
-    <p>${l10n.sourceCodeAt} <a target="_blank" href="${
-        l10n.links.githubHref
-    }">${l10n.links.githubString}</a></p>
-</div><div class="page-break"></div>`,
+    <p class=\"text-align-left\">${
+        l10n.sourceCodeAt
+    } <a target="_blank" href="${l10n.links.githubHref}">${
+        l10n.links.githubString
+    }</a></p>
+</div>${templates.shareList({
+        l10n,
+        templates
+    })}<div class="page-break"></div>`,
 
     landing: (structure, l10n, lang) => {
         const link = (anchor, type = 'html') =>
@@ -163,5 +229,16 @@ export default {
         ${l10n.landing.footer.join('\n')}
     </body>
 </html>`;
+    },
+
+    shareLink: (link, parameters) => {
+        let result = link;
+        for (const [key, value] of Object.entries(parameters)) {
+            result = result.replace(
+                new RegExp(`\\$\\{${key}\\}`, 'g'),
+                encodeURIComponent(value)
+            );
+        }
+        return result;
     }
 };

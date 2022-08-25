@@ -34,6 +34,38 @@
         "zenTag": "Яндекс.Дзен",
         "telegramHref": "https://t.me/beer_lecturer"
     },
+    "sidePanel": {
+        "shareTo": "Поделиться",
+        "copyLink": "Ссылка",
+        "shareParameters": {
+            "url": "https://twirl.github.io/Beer-Lecture/index.ru.html",
+            "text": "Пивная лекция (с дегустацией) — книга об истории пива и историческом пиве",
+            "tags": "Beer,Пиво,BeerLecture",
+            "viaTwitter": "blogovodoved"
+        },
+        "services": [
+            {
+                "key": "vk",
+                "link": "https://vk.com/share.php?url=${url}"
+            },
+            {
+                "key": "facebook",
+                "link": "https://www.facebook.com/sharer.php?u=${url}"
+            },
+            {
+                "key": "twitter",
+                "link": "https://twitter.com/intent/tweet?text=${text}&url=${url}&hashtags=${tags}&via=${viaTwitter}"
+            },
+            {
+                "key": "linkedin",
+                "link": "https://www.linkedin.com/sharing/share-offsite/?url=${url}"
+            },
+            {
+                "key": "reddit",
+                "link": "http://www.reddit.com/submit?url=${url}&title=${text}"
+            }
+        ]
+    },
     "sourceCodeAt": "Исходный код доступен на ",
     "imageCredit": "Image Credit",
     "publicDomain": "Общественное достояние",
@@ -53,7 +85,7 @@
         "contents": [
             "<p>Пиво. Самый простой и непритязательный напиток, которым заполняют полки в супермаркетах. Между тем на протяжении веков пивоварение было важнейшей отраслью экономики многих государств. Пивом получали зарплату строители египетских пирамид, полярные исследователи брали его с собой для подкрепления сил в арктические экспедиции, а брюссельские рабочие однажды устроили восстание из-за подорожания пива на два сантима.</p>",
             "<p>В этой книге излагается многовековая история пива в детальном, интересном и <em>практическом</em> виде. Вы прочитаете, какие сорта пива были популярны в каждую эпоху — от Бронзового века до Новейшего времени, поймёте причины этой популярности и, самое главное, узнаете, как попробовать историю на вкус.</p>",
-            "<p>Иллюстрации и вдохновение: Мария Константинова &middot; <a href=\"https://www.instagram.com/art.mari.ka/\">art.mari.ka</a></p>",
+            "<p class=\"text-align-left\">Иллюстрации и вдохновение: Мария Константинова &middot; <a href=\"https://www.instagram.com/art.mari.ka/\">art.mari.ka</a></p>",
             "<img class=\"cc-by-nc-img\" alt=\"Creative Commons «Attribution-NonCommercial» Logo\" src=\"https://i.creativecommons.org/l/by-nc/4.0/88x31.png\"/>",
             "<p class=\"cc-by-nc\">Это произведение доступно по <a href=\"http://creativecommons.org/licenses/by-nc/4.0/\">лицензии Creative Commons «Attribution-NonCommercial» («Атрибуция — Некоммерческое использование») 4.0 Всемирная</a>.</p>"
         ]

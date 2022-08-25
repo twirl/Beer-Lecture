@@ -35,6 +35,34 @@
         "mediumHref": "https://twitter.com/blogovodoved",
         "mediumTag": "Medium"
     },
+    "sidePanel": {
+        "shareTo": "Share",
+        "copyLink": "Link",
+        "shareParameters": {
+            "url": "https://twirl.github.io/Beer-Lecture/",
+            "text": "Beer Lecture (tasting included) — a book about beer history and historical beers",
+            "tags": "Beer,BeerLecture",
+            "viaTwitter": "blogovodoved"
+        },
+        "services": [
+            {
+                "key": "facebook",
+                "link": "https://www.facebook.com/sharer.php?u=${url}"
+            },
+            {
+                "key": "twitter",
+                "link": "https://twitter.com/intent/tweet?text=${text}&url=${url}&hashtags=${tags}&via=${viaTwitter}"
+            },
+            {
+                "key": "linkedin",
+                "link": "https://www.linkedin.com/sharing/share-offsite/?url=${url}"
+            },
+            {
+                "key": "reddit",
+                "link": "http://www.reddit.com/submit?url=${url}&title=${text}"
+            }
+        ]
+    },
     "sourceCodeAt": "Source code available at",
     "imageCredit": "Image Credit",
     "publicDomain": "Public Domain",
@@ -54,7 +82,7 @@
         "contents": [
             "<p>Beer. The most modest and unassuming beverage, a filler for supermarket shelves. At the same time — a staple of the economies of many nations for millennia. Egyptian pyramid builders were paid with it, polar explorers took it to the North Pole as a life-sustaining product, workers of Brussels once rioted because its price was up by two centimes.</p>",
             "<p>In this book, a centuries-long beer history is told in a comprehensive, interesting, and <em>practical</em> manner. You will learn which beer styles were popular in each epoch, from Bronze Age to the 21st century, understand the reasons behind this popularity, and most importantly, explore the history by taste.</p>",
-            "<p>Illustrations &amp; inspiration by Maria Konstantinova &middot; <a href=\"https://www.instagram.com/art.mari.ka/\">art.mari.ka</a></p>",
+            "<p>Illustrations &amp; inspiration by Maria Konstantinova &middot; <a href=\"https://www.instagram.com/art.mari.ka/\">art.mari.ka</a></p>",
             "<img class=\"cc-by-nc-img\" alt=\"Creative Commons «Attribution-NonCommercial» Logo\" src=\"https://i.creativecommons.org/l/by-nc/4.0/88x31.png\"/>",
             "<p class=\"cc-by-nc\">This book is distributed under the <a href=\"http://creativecommons.org/licenses/by-nc/4.0/\">Creative Commons Attribution-NonCommercial 4.0 International licence</a>.</p>"
         ]

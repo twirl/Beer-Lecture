@@ -23,6 +23,8 @@ const targets = (
     return targets;
 }, {});
 
+const chapters = process.argv[4];
+
 console.log(`Building langs: ${langsToBuild.join(', ')}…`);
 langsToBuild.forEach((lang) => {
     init({
@@ -57,7 +59,8 @@ langsToBuild.forEach((lang) => {
             html: {
                 postProcess: [plugins.html.imgDataUri]
             }
-        }
+        },
+        chapters
     }).then((builder) => {
         Object.keys(targets).forEach((target) => {
             if (target !== 'landing') {
