@@ -1,13 +1,13 @@
 @page {
-    margin: 20mm 18mm 27mm 25mm;
-    size: 145mm 204mm;
+    margin: 28mm 28mm 33mm 25mm;
+    size: 210mm 297mm;
 }
 
 html,
 body {
     margin: 0;
     padding: 0;
-    font-size: 12pt;
+    font-size: 14pt;
     text-size-adjust: none;
 }
 
@@ -34,6 +34,7 @@ img {
     margin-top: 1em;
     page-break-before: auto;
     page-break-after: avoid;
+    max-height: 100mm !important;
 }
 
 .cover {
@@ -43,7 +44,7 @@ img {
     background-size: cover;
     position: relative;
     margin: 0;
-    font-size: 4mm;
+    font-size: 6mm;
     aspect-ratio: 145/204;
 }
 
