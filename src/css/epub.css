@@ -4,12 +4,6 @@ body {
     text-align: justify;
 }
 
-.cc-by-nc {
-    background: transparent
-        url(https://i.creativecommons.org/l/by-nc/4.0/88x31.png) 0 5px no-repeat;
-    padding-left: 92px;
-}
-
 code,
 pre {
     font-family: Inconsolata, sans-serif;

@@ -95,16 +95,6 @@ h1 .title {
     text-transform: uppercase;
 }
 
-.cc-by-nc-img {
-    display: block;
-    float: left;
-    margin-top: 5px;
-}
-
-.cc-by-nc {
-    margin-left: 92px;
-}
-
 .cc-by-nc::after {
     clear: left;
 }

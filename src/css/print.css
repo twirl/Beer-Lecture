@@ -89,3 +89,10 @@ ol {
 nav.page-main {
     display: none;
 }
+
+.cc-by-nc {
+    background-image: url(/img/cc-by-nc.png);
+    background-position: 0 0.3em;
+    background-repeat: no-repeat;
+    padding-left: 92px;
+}

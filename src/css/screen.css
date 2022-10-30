@@ -77,6 +77,13 @@ nav.page-main ul li.share,
     background-repeat: no-repeat;
 }
 
+.cc-by-nc {
+    background-image: url(/img/cc-by-nc.png);
+    background-position: 0 0.3em;
+    background-repeat: no-repeat;
+    padding-left: 92px;
+}
+
 .side-panel {
     border-left: 1px solid #979b9f;
     background-color: #e8e6e5;
