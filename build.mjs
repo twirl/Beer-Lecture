@@ -81,8 +81,8 @@ async function build(langsToBuild, targets, chapters) {
                     pathResolve('docs', l10n[lang].landingFile),
                     landingHtml
                 );
-                console.log(`Finished lang=${lang} target=${target}`);
             }
+            console.log(`Finished lang=${lang} target=${target}`);
         }
     }
 }
