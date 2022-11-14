@@ -26,45 +26,48 @@ const targets = (
 const chapters = process.argv[4];
 
 console.log(`Building langs: ${langsToBuild.join(', ')}…`);
-langsToBuild.forEach((lang) => {
-    init({
-        l10n: l10n[lang],
-        basePath: pathResolve(`src`),
-        path: pathResolve(`src/${lang}/clean-copy`),
-        templates,
-        pipeline: {
-            css: {
-                beforeAll: [
-                    plugins.css.backgroundImageDataUri,
-                    plugins.css.fontFaceDataUri
-                ]
+build(langsToBuild, targets, chapters).then(() => process.exit(0));
+
+async function build(langsToBuild, targets, chapters) {
+    for (const lang of langsToBuild) {
+        const builder = await init({
+            l10n: l10n[lang],
+            basePath: pathResolve(`src`),
+            path: pathResolve(`src/${lang}/clean-copy`),
+            templates,
+            pipeline: {
+                css: {
+                    beforeAll: [
+                        plugins.css.backgroundImageDataUri,
+                        plugins.css.fontFaceDataUri
+                    ]
+                },
+                ast: {
+                    preProcess: [
+                        plugins.ast.h3ToTitle,
+                        plugins.ast.incuts({
+                            funFact: 'Fun Fact. ',
+                            beerMyth: 'Beer Myth. '
+                        }),
+                        plugins.ast.aImg,
+                        plugins.ast.imgSrcResolve,
+                        plugins.ast.ref,
+                        plugins.ast.ghTableFix
+                    ]
+                },
+                htmlSourceValidator: {
+                    validator: 'WHATWG',
+                    ignore: ['heading-level', 'no-raw-characters']
+                },
+                html: {
+                    postProcess: [plugins.html.imgDataUri]
+                }
             },
-            ast: {
-                preProcess: [
-                    plugins.ast.h3ToTitle,
-                    plugins.ast.incuts({
-                        funFact: 'Fun Fact. ',
-                        beerMyth: 'Beer Myth. '
-                    }),
-                    plugins.ast.aImg,
-                    plugins.ast.imgSrcResolve,
-                    plugins.ast.ref,
-                    plugins.ast.ghTableFix
-                ]
-            },
-            htmlSourceValidator: {
-                validator: 'WHATWG',
-                ignore: ['heading-level', 'no-raw-characters']
-            },
-            html: {
-                postProcess: [plugins.html.imgDataUri]
-            }
-        },
-        chapters
-    }).then((builder) => {
-        Object.keys(targets).forEach((target) => {
+            chapters
+        });
+        for (const target of Object.keys(targets)) {
             if (target !== 'landing') {
-                builder.build(
+                await builder.build(
                     target,
                     pathResolve('docs', `${l10n[lang].file}.${lang}.${target}`)
                 );
@@ -78,7 +81,8 @@ langsToBuild.forEach((lang) => {
                     pathResolve('docs', l10n[lang].landingFile),
                     landingHtml
                 );
+                console.log(`Finished lang=${lang} target=${target}`);
             }
-        });
-    });
-});
+        }
+    }
+}
