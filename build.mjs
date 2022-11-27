@@ -52,7 +52,8 @@ async function build(langsToBuild, targets, chapters) {
                         plugins.ast.aImg,
                         plugins.ast.imgSrcResolve,
                         plugins.ast.ref,
-                        plugins.ast.ghTableFix
+                        plugins.ast.ghTableFix,
+                        plugins.ast.stat
                     ]
                 },
                 htmlSourceValidator: {
@@ -82,7 +83,16 @@ async function build(langsToBuild, targets, chapters) {
                     landingHtml
                 );
             }
-            console.log(`Finished lang=${lang} target=${target}`);
+            console.log(
+                `Finished lang=${lang} target=${target}\n${Object.entries({
+                    sources: 'Sources',
+                    references: 'references',
+                    words: 'words',
+                    characters: 'characters'
+                })
+                    .map(([k, v]) => `${v}: ${builder.structure[k]}`)
+                    .join(', ')}`
+            );
         }
     }
 }

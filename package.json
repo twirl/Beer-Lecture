@@ -6,7 +6,7 @@
     "author": "Sergey Konstantinov <twirl-team@yandex.ru>",
     "repository": "github.com:twirl/Beer-Lecture",
     "devDependencies": {
-        "@twirl/book-builder": "^0.0.18"
+        "@twirl/book-builder": "^0.0.19"
     },
     "scripts": {
         "build": "node build.mjs",
