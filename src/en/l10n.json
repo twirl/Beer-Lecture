@@ -76,7 +76,7 @@
     "funFact": "It's interesting",
     "beerMyth": "Beer Myth",
     "frontPage": {
-        "title": "Beer: a Lecture",
+        "title": "Beer: a Lecture<br/>",
         "subTitle": "(tasting<br/>included)",
         "pageTitle": "Front Page",
         "contents": [
