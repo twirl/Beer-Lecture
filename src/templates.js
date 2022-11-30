@@ -67,7 +67,7 @@ ${l10n.sidePanel.services
     frontPage: ({ templates, l10n }) => `
 <div class="cover">
     <h1>
-    <span class="author">${l10n.author}</span><span class="title"
+    <span class="author">${l10n.author}</span><br/><span class="title"
         >${l10n.frontPage.title}</span
     ><em>${l10n.frontPage.subTitle}</em>
     </h1>
