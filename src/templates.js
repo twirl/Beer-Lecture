@@ -136,17 +136,28 @@ ${l10n.sidePanel.services
             /><br />
             <h1>${l10n.author}<br/>${l10n.title}</h1>
             <h2>${l10n.landing.subTitle}</h2>
-            <br />${l10n.landing.subscribeOn} ${l10n.landing.updates
+            <br/>
+            <p>${l10n.landing.bookComplete}. ${
+            l10n.landing.bookSites
+        } ${l10n.landing.bookSiteList
+            .map(
+                (source) =>
+                    `<a class="regular" href="${l10n.links[source + 'Href']}">${
+                        l10n.links[source + 'Tag'] || ''
+                    }</a>`
+            )
+            .join(' &middot; ')}</p>
+            <p>${l10n.landing.subscribeOn} ${l10n.landing.updates
             .map(
                 (source) =>
                     `<a class="${source}" href="${
                         l10n.links[source + 'Href']
                     }">${l10n.links[source + 'Tag'] || ''}</a>`
             )
-            .join(' &middot; ')}
-            ${
+            .join(' &middot; ')}</p>
+            <p>${
                 l10n.landing.follow && l10n.landing.follow.length
-                    ? `<br/>${l10n.landing.followOn} ${l10n.landing.follow
+                    ? `${l10n.landing.followOn} ${l10n.landing.follow
                           .map(
                               (source) =>
                                   `<a class="${source}" href="${
@@ -155,16 +166,16 @@ ${l10n.sidePanel.services
                           )
                           .join(' &middot; ')}`
                     : ''
-            }
-            <br />${l10n.landing.supportThisWork} ${l10n.landing.support
+            }</p>
+            <p>${l10n.landing.supportThisWork} ${l10n.landing.support
             .map(
                 (source) =>
                     `<a class="${source}" href="${
                         l10n.links[source + 'Href']
                     }">${l10n.links[source + 'Tag'] || ''}</a>`
             )
-            .join(' &middot; ')}
-            <br />🍻🍻🍻
+            .join(' &middot; ')}</p>
+            <p>🍻🍻🍻</p>
         </nav>
         ${l10n.landing.content.join('\n')}
         <p>${l10n.landing.download} <a href="${link(
