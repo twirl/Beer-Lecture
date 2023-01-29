@@ -33,7 +33,11 @@
         "redditHref": "https://www.reddit.com/user/yatwirl",
         "twitterHref": "https://twitter.com/blogovodoved",
         "mediumHref": "https://twitter.com/blogovodoved",
-        "mediumTag": "Medium"
+        "mediumTag": "Medium",
+        "amazonTag": "Amazon",
+        "amazonHref": "https://www.amazon.com/dp/B0BNP69KP8",
+        "goodreadsTag": "GoodReads",
+        "goodreadsHref": "https://www.goodreads.com/book/show/63901000-beer"
     },
     "sidePanel": {
         "shareTo": "Share",
@@ -76,7 +80,7 @@
     "funFact": "It's interesting",
     "beerMyth": "Beer Myth",
     "frontPage": {
-        "title": "Beer: a Lecture",
+        "title": "Beer: a Lecture<br/>",
         "subTitle": "(tasting<br/>included)",
         "pageTitle": "Front Page",
         "contents": [
@@ -88,6 +92,9 @@
     },
     "landing": {
         "subTitle": "Free e-book",
+        "bookComplete": "The book is complete",
+        "bookSites": "You might review & rate it on",
+        "bookSiteList": ["goodreads", "amazon"],
         "subscribeOn": "Subscribe for updates on",
         "updates": ["instagram", "facebook", "github", "reddit"],
         "followOn": "Follow me on",
@@ -109,57 +116,16 @@
     "contents": [
         { "chapters": ["", ""] },
         {
-            "chapters": [
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "It's All about Water",
-                "The Red Triangle",
-                "Age of Empires",
-                "A Series of Unfortunate Events"
-            ]
+            "chapters": ["", "", "", "", "", "", "", "", "", "", "", ""]
         },
         {
-            "title": "Part II. The Globe of Belgium",
-            "chapters": [
-                "Orange Peel, Coriander, and Pierre Celis",
-                "White, Yellow, and Brown",
-                "Biology and Chemistry",
-                "March",
-                "Red and Brown",
-                "Spéciale Belge",
-                "The Rosé of Brussels",
-                "Not Brewers",
-                "The White Cap",
-                "The Valley of Gold",
-                "Gradus ad Parnassum",
-                "The Devil for Sale"
-            ]
+            "chapters": ["", "", "", "", "", "", "", "", "", "", "", ""]
         },
         {
-            "title": "Part III. The New Hope",
-            "chapters": [
-                "The Chronicles of the Catastrophe",
-                "The Revitalisation",
-                "American English",
-                "USDA 56013",
-                "4C",
-                "New Belgium",
-                "The Alchemist from Vermont",
-                "The Three Whales"
-            ]
+            "chapters": ["", "", "", "", "", "", "", ""]
         },
         {
-            "title": "Appendix",
-            "chapters": [
-                "On Beer Styles, Ratings, and Recommendations",
-                "The Summary Table of the Recommended Tastings"
-            ]
+            "chapters": ["", ""]
         }
     ]
 }

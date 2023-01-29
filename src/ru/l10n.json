@@ -32,7 +32,11 @@
         "pikabuTag": "Пикабу",
         "zenHref": "https://zen.yandex.ru/beer_lecturer",
         "zenTag": "Яндекс.Дзен",
-        "telegramHref": "https://t.me/beer_lecturer"
+        "telegramHref": "https://t.me/beer_lecturer",
+        "amazonTag": "Amazon",
+        "amazonHref": "https://www.amazon.com/dp/B0BNP69KP8",
+        "goodreadsTag": "GoodReads",
+        "goodreadsHref": "https://www.goodreads.com/book/show/63901000-beer"
     },
     "sidePanel": {
         "shareTo": "Поделиться",
@@ -91,6 +95,9 @@
     },
     "landing": {
         "subTitle": "Бесплатная электронная книга",
+        "bookComplete": "Книга полностью завершена",
+        "bookSites": "Вы можете оставить отзыв и оценить книгу на ",
+        "bookSiteList": ["goodreads", "amazon"],
         "subscribeOn": "Подпишитесь на обновления на",
         "updates": ["telegram", "pikabu", "zen"],
         "supportThisWork": "Поддержите эту работу на",
@@ -109,57 +116,16 @@
     "contents": [
         { "chapters": ["", ""] },
         {
-            "chapters": [
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "Дело в воде",
-                "Красный треугольник",
-                "Эпоха империй",
-                "Череда несчастий"
-            ]
+            "chapters": ["", "", "", "", "", "", "", "", "", "", "", ""]
         },
         {
-            "title": "Часть II. Глобус Бельгии",
-            "chapters": [
-                "Апельсиновая цедра, кориандр и Пьер Селис",
-                "Белое, жёлтое, коричневое",
-                "Биология и химия",
-                "Март",
-                "Красное и коричневое",
-                "Spéciale Belge",
-                "Ягода-малина",
-                "Не пивовары",
-                "Белый колпак",
-                "Золотая долина",
-                "Gradus ad Parnassum",
-                "Дьявол на продажу"
-            ]
+            "chapters": ["", "", "", "", "", "", "", "", "", "", "", ""]
         },
         {
-            "title": "Часть III. Новая надежда",
-            "chapters": [
-                "Хроники катастрофы",
-                "Ревитализация",
-                "Американский английский",
-                "USDA 56013",
-                "4C",
-                "Новая Бельгия",
-                "Алхимик из Вермонта",
-                "Три кита"
-            ]
+            "chapters": ["", "", "", "", "", "", "", ""]
         },
         {
-            "title": "Приложение",
-            "chapters": [
-                "О видах, рейтингах и рекомендациях",
-                "Сводная таблица рекомендуемых сортов пива по главам"
-            ]
+            "chapters": ["", ""]
         }
     ]
 }
