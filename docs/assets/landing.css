@@ -16,7 +16,9 @@ ul > li {
     padding-left: 1em;
 }
 
-p, body > ul, h3 {
+p,
+body > ul,
+h3 {
     margin: 0 0 1em 0;
 }
 
@@ -29,8 +31,7 @@ nav {
 }
 
 nav a {
-    vertical-align: -12%;
-    content: ' ';
+    vertical-align: 0;
     width: 1em;
     height: 1em;
     display: inline-block;
@@ -40,7 +41,13 @@ nav a {
     text-decoration: none;
 }
 
-h1, h2 {
+nav a.regular {
+    vertical-align: auto;
+    width: auto;
+}
+
+h1,
+h2 {
     padding: unset;
     margin: unset;
     line-height: unset;
@@ -50,7 +57,8 @@ h1 {
     font-size: 1.5em;
 }
 
-h2, h3 {
+h2,
+h3 {
     font-size: 1.2em;
 }
 
@@ -149,7 +157,8 @@ img.header {
     text-align: center;
 }
 
-.about-me aside a, .about-me aside a:visited {
+.about-me aside a,
+.about-me aside a:visited {
     color: inherit;
     font-weight: bold;
 }
