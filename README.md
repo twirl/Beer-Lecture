@@ -7,6 +7,8 @@ See full license in LICENSE.md file or at [Creative Commons Website](http://crea
 
 Thanks [art.mari.ka](https://www.instagram.com/art.mari.ka/) for the cover picture & inspiration
 
+Thanks [Jonas](https://www.upwork.com/freelancers/~015ab4150040fbceba) for proofreading & invaluable advice
+
 Thanks [Friedrich Althausen](https://www.instagram.com/falthausen/) for Vollkorn
 
 Thanks [Google](https://fonts.google.com/noto) for Noto
