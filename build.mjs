@@ -1,6 +1,7 @@
 import { resolve as pathResolve } from 'path';
 import templates from './src/templates.js';
-import { init, plugins } from '@twirl/book-builder';
+//import { init, plugins } from '@twirl/book-builder';
+import { init, plugins } from '../The-Book-Builder/index.js';
 import { readFileSync, writeFileSync } from 'fs';
 
 const l10n = {
