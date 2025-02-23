@@ -1,11 +1,12 @@
 {
-    "title": "Beer: A Lecture (Tasting Included)",
+    "title": "Beer: a Lecture (Tasting Included)",
     "author": "Sergey Konstantinov",
     "chapter": "Chapter",
     "toc": "Table of Contents",
     "description": "Beer. The most modest and unassuming beverage, a filler for supermarket shelves. At the same time—a staple of the economies of many nations for millennia. Egyptian pyramid builders were paid with it, polar explorers took it to the North Pole as a life-sustaining product, workers of Brussels once rioted because its price was up by two centimes. In this book, a centuries-long beer history is told in a comprehensive, interesting, and *practical* manner. You will learn which beer styles were popular in each epoch, from Bronze Age to the 21st century, understand the reasons behind this popularity, and most importantly, explore the history by taste.",
     "locale": "en_US",
     "file": "Sergey Konstantinov. Beer - a Lecture (Tasting Included)",
+    "cover": "src/img/cover.jpg",
     "aboutMe": {
         "title": "About the Author",
         "content": [
@@ -84,10 +85,10 @@
         "subTitle": "(tasting<br/>included)",
         "pageTitle": "Front Page",
         "contents": [
-            "<p>Beer. The most modest and unassuming beverage, a filler for supermarket shelves. At the same time — a staple of the economies of many nations for millennia. Egyptian pyramid builders were paid with it, polar explorers took it to the North Pole as a life-sustaining product, workers of Brussels once rioted because its price was up by two centimes.</p>",
-            "<p>In this book, a centuries-long beer history is told in a comprehensive, interesting, and <em>practical</em> manner. You will learn which beer styles were popular in each epoch, from Bronze Age to the 21st century, understand the reasons behind this popularity, and most importantly, explore the history by taste.</p>",
+            "<p class=\"cc-by-nc\">© Sergey Konstantinov, 2023<br/>This book is distributed under the <a href=\"http://creativecommons.org/licenses/by-nc/4.0/\">Creative Commons Attribution-NonCommercial 4.0 International licence</a>.</p>",
             "<p>Illustrations &amp; inspiration by Maria Konstantinova &middot; <a href=\"https://www.instagram.com/art.mari.ka/\">art.mari.ka</a></p>",
-            "<p class=\"cc-by-nc\">This book is distributed under the <a href=\"http://creativecommons.org/licenses/by-nc/4.0/\">Creative Commons Attribution-NonCommercial 4.0 International licence</a>.</p>"
+            "<p>Beer. The most modest and unassuming beverage, a filler for supermarket shelves. At the same time — a staple of the economies of many nations for millennia. Egyptian pyramid builders were paid with it, polar explorers took it to the North Pole as a life-sustaining product, workers of Brussels once rioted because its price was up by two centimes.</p>",
+            "<p>In this book, a centuries-long beer history is told in a comprehensive, interesting, and <em>practical</em> manner. You will learn which beer styles were popular in each epoch, from Bronze Age to the 21st century, understand the reasons behind this popularity, and most importantly, explore the history by taste.</p>"
         ]
     },
     "landing": {

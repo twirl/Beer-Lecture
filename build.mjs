@@ -9,6 +9,8 @@ const l10n = {
     ru: JSON.parse(readFileSync('./src/ru/l10n.json', 'utf-8'))
 };
 
+const SAMPLE_CHAPTERS = '3-3';
+
 const langsToBuild = (process.argv[2] &&
     process.argv[2].split(',').map((s) => s.trim())) || ['ru', 'en'];
 
@@ -17,7 +19,8 @@ const targets = (
         'html',
         'pdf',
         'epub',
-        'landing'
+        'landing',
+        'sample'
     ]
 ).reduce((targets, arg) => {
     targets[arg.trim()] = true;
@@ -31,49 +34,46 @@ build(langsToBuild, targets, chapters).then(() => process.exit(0));
 
 async function build(langsToBuild, targets, chapters) {
     for (const lang of langsToBuild) {
-        const builder = await init({
-            l10n: l10n[lang],
-            basePath: pathResolve(`src`),
-            path: pathResolve(`src/${lang}/clean-copy`),
-            templates,
-            pipeline: {
-                css: {
-                    beforeAll: [
-                        plugins.css.backgroundImageDataUri,
-                        plugins.css.fontFaceDataUri
-                    ]
-                },
-                ast: {
-                    preProcess: [
-                        plugins.ast.h3ToTitle,
-                        plugins.ast.incuts({
-                            funFact: 'Fun Fact. ',
-                            beerMyth: 'Beer Myth. '
-                        }),
-                        plugins.ast.aImg,
-                        plugins.ast.imgSrcResolve,
-                        plugins.ast.ref,
-                        plugins.ast.ghTableFix,
-                        plugins.ast.stat
-                    ]
-                },
-                htmlSourceValidator: {
-                    validator: 'WHATWG',
-                    ignore: ['heading-level', 'no-raw-characters']
-                },
-                html: {
-                    postProcess: [plugins.html.imgDataUri]
-                }
-            },
-            chapters
-        });
         for (const target of Object.keys(targets)) {
-            if (target !== 'landing') {
-                await builder.build(
-                    target,
-                    pathResolve('docs', `${l10n[lang].file}.${lang}.${target}`)
-                );
-            } else {
+            const builder = await init({
+                lang,
+                cover: l10n[lang].cover,
+                l10n: l10n[lang],
+                basePath: pathResolve(`src`),
+                path: pathResolve(`src/${lang}/clean-copy`),
+                templates,
+                pipeline: {
+                    css: {
+                        beforeAll: [
+                            plugins.css.backgroundImageDataUri,
+                            plugins.css.fontFaceDataUri
+                        ]
+                    },
+                    ast: {
+                        preProcess: [
+                            plugins.ast.h3ToTitle,
+                            plugins.ast.incuts({
+                                funFact: 'Fun Fact. ',
+                                beerMyth: 'Beer Myth. '
+                            }),
+                            plugins.ast.aImg,
+                            plugins.ast.imgSrcResolve,
+                            plugins.ast.ref,
+                            plugins.ast.ghTableFix,
+                            plugins.ast.stat
+                        ]
+                    },
+                    htmlSourceValidator: {
+                        validator: 'WHATWG',
+                        ignore: ['heading-level', 'no-raw-characters']
+                    },
+                    html: {
+                        postProcess: [plugins.html.imgDataUri]
+                    }
+                },
+                chapters: target == 'sample' ? SAMPLE_CHAPTERS : chapters
+            });
+            if (target == 'landing') {
                 const landingHtml = templates.landing(
                     builder.structure,
                     l10n[lang],
@@ -83,17 +83,28 @@ async function build(langsToBuild, targets, chapters) {
                     pathResolve('docs', l10n[lang].landingFile),
                     landingHtml
                 );
+
+                console.log(
+                    `Finished lang=${lang} target=${target}\n${Object.entries({
+                        sources: 'Sources',
+                        references: 'references',
+                        words: 'words',
+                        characters: 'characters'
+                    })
+                        .map(([k, v]) => `${v}: ${builder.structure[k]}`)
+                        .join(', ')}`
+                );
+            } else if (target == 'sample') {
+                await builder.build(
+                    'epub',
+                    pathResolve('docs', `sample.${lang}.epub`)
+                );
+            } else {
+                await builder.build(
+                    target,
+                    pathResolve('docs', `${l10n[lang].file}.${lang}.${target}`)
+                );
             }
-            console.log(
-                `Finished lang=${lang} target=${target}\n${Object.entries({
-                    sources: 'Sources',
-                    references: 'references',
-                    words: 'words',
-                    characters: 'characters'
-                })
-                    .map(([k, v]) => `${v}: ${builder.structure[k]}`)
-                    .join(', ')}`
-            );
         }
     }
 }

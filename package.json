@@ -5,14 +5,13 @@
     "license": "CC-BY-NC-4.0",
     "author": "Sergey Konstantinov <twirl-team@yandex.ru>",
     "repository": "github.com:twirl/Beer-Lecture",
+    "engines": {
+        "node": "^23.0.0"
+    },
     "devDependencies": {
-        "@twirl/book-builder": "^0.0.20"
+        "@twirl/book-builder": "^1.0.5"
     },
     "scripts": {
-        "build": "node build.mjs",
-        "build:watch": "nodemon -e md,js,mjs,css,json --exec npm run build ru html 1-5"
-    },
-    "dependencies": {
-        "nodemon": "^2.0.19"
+        "build": "node --experimental-transform-types build.ts"
     }
 }
