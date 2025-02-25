@@ -1,0 +1,52 @@
+@font-face {
+    font-family: local-serif;
+    src: url(/fonts/Vollkorn-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: local-serif;
+    src: url(/fonts/Vollkorn-Italic-VariableFont_wght.ttf);
+    font-style: italic;
+}
+
+@font-face {
+    font-family: local-serif;
+    src: url(/fonts/Vollkorn-Italic-VariableFont_wght.ttf);
+    font-style: oblique;
+}
+
+@font-face {
+    font-family: local-sans;
+    src: url(/fonts/NotoSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: local-sans;
+    src: url(/fonts/NotoSans-Bold.ttf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: local-sans;
+    src: url(/fonts/NotoSans-Italic.ttf);
+    font-style: oblique;
+}
+
+@font-face {
+    font-family: local-sans;
+    src: url(/fonts/NotoSans-Italic.ttf);
+    font-style: italic;
+}
+
+@font-face {
+    font-family: local-sans;
+    src: url(/fonts/NotoSans-BoldItalic.ttf);
+    font-style: oblique;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: local-sans;
+    src: url(/fonts/NotoSans-BoldItalic.ttf);
+    font-style: italic;
+    font-weight: bold;
+}

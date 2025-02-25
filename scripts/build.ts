@@ -2,21 +2,26 @@ import { readFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
 
 import {
-    Bibliography,
     init,
-    Path,
+    type Bibliography,
+    type L10n,
+    type Path,
     plugins,
     LogLevel,
-    applyAstPluginToStructure,
-    L10n
+    applyAstPluginToStructure
 } from '@twirl/book-builder';
 import { buildLanding } from './build-landing.ts';
 import { CustomTemplates, type ExtraStrings } from './templates.ts';
+import { incuts } from './plugins.ts';
 
 const SRC = resolve('./src') as Path;
 const LOCALES: { [language: string]: string } = {
     en: 'en-US',
     ru: 'ru-RU'
+};
+const INCUTS = {
+    funFact: 'Fun Fact. ',
+    beerMyth: 'Beer Myth. '
 };
 
 const { args, flags } = process.argv.slice(2).reduce(
@@ -95,11 +100,6 @@ const builders = {
                 structure: {
                     plugins: [
                         plugins.structure.h3Title(),
-                        plugins.structure.h5Counter(),
-                        plugins.structure.highlighter({
-                            languages: ['javascript', 'typescript', 'json']
-                        }),
-                        plugins.structure.hoistSingleChapters(),
                         plugins.structure.tableOfContents(),
                         plugins.structure.imprintPages(
                             templates.htmlImprintPages(),
@@ -108,6 +108,7 @@ const builders = {
                         plugins.structure.reference({
                             bibliography
                         }),
+                        incuts(INCUTS),
                         plugins.structure.imgDataUri(),
                         plugins.structure.aImg()
                     ]
@@ -150,11 +151,6 @@ const builders = {
                 structure: {
                     plugins: [
                         plugins.structure.h3Title(),
-                        plugins.structure.h5Counter(),
-                        plugins.structure.highlighter({
-                            languages: ['javascript', 'typescript', 'json']
-                        }),
-                        plugins.structure.hoistSingleChapters(),
                         plugins.structure.imprintPages(
                             templates.htmlImprintPages(),
                             'front-page'
@@ -163,6 +159,7 @@ const builders = {
                             bibliography,
                             prependPath: 'bibliography.xhtml'
                         }),
+                        incuts(INCUTS),
                         plugins.structure.epubLink(),
                         plugins.structure.aImg(),
                         plugins.structure.imgSrcToFileUrl(baseDir)
@@ -203,11 +200,6 @@ const builders = {
                 structure: {
                     plugins: [
                         plugins.structure.h3Title(),
-                        plugins.structure.h5Counter(),
-                        plugins.structure.highlighter({
-                            languages: ['javascript', 'typescript', 'json']
-                        }),
-                        plugins.structure.hoistSingleChapters(),
                         plugins.structure.tableOfContents(),
                         plugins.structure.imprintPages(
                             templates.htmlImprintPages(),
@@ -216,6 +208,7 @@ const builders = {
                         plugins.structure.reference({
                             bibliography
                         }),
+                        incuts(INCUTS),
                         plugins.structure.imgDataUri(),
                         plugins.structure.aImg()
                     ]
@@ -255,7 +248,6 @@ const builders = {
         await buildLanding({
             structure: bookBuilder.structure,
             lang: language,
-            examplesDir: resolve('docs', 'examples') as Path,
             outFile: resolve('docs', strings.landingFile) as Path,
             strings,
             templates
@@ -307,7 +299,7 @@ async function main() {
             }
             const outFile = resolve(
                 'docs',
-                `API.${language}.${target}`
+                `${strings.file}.${language}.${target}`
             ) as Path;
             await builder({
                 outFile,

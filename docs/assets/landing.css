@@ -62,14 +62,6 @@ h3 {
     font-size: 1.2em;
 }
 
-a.instagram {
-    background-image: url(instagram.svg);
-}
-
-a.facebook {
-    background-image: url(facebook.png);
-}
-
 a.github {
     background-image: url(github.jpg);
     width: 1.2em;
@@ -85,47 +77,8 @@ a.linkedin {
 }
 
 a.twitter {
-    background-image: url(twitter.svg);
+    background-image: url(x.png);
     width: 1.392em;
-}
-
-a.telegram {
-    background-image: url(telegram.png);
-}
-
-a.patreon,
-a.medium {
-    width: auto;
-    padding-left: 1em;
-    vertical-align: baseline;
-    background-position: 0 0.1em;
-}
-
-a.patreon {
-    background-image: url(patreon.png);
-}
-
-a.medium {
-    background-image: url(medium.png);
-    padding-left: 1.3em;
-    background-size: 1.42em 1em;
-}
-
-a.pikabu {
-    background-image: url(pikabu.png);
-    width: auto;
-    padding-left: 1em;
-    vertical-align: baseline;
-    background-position: 0 0.1em;
-}
-
-a.zen {
-    background-image: url(zen.svg);
-    background-position: 0 0.2em;
-    background-size: 0.8em;
-    width: auto;
-    padding-left: 1em;
-    vertical-align: baseline;
 }
 
 img.header {

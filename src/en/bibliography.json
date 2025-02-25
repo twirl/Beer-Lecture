@@ -1,0 +1,440 @@
+{
+    "acitelli-audacity": {
+        "authors": "Acitelli, T.",
+        "title": "The Audacity of Hops",
+        "subtitle": ["The History of America's Craft Beer Revolution"],
+        "publicationDate": "2013",
+        "hrefs": ["isbn:9781613743881"]
+    },
+    "anderson-origins-of-potter": {
+        "authors": "Anderson, R.",
+        "title": "Microbes and the Origins of Porter",
+        "subtitle": ["Brewery History, 113"],
+        "publicationDate": "2003",
+        "hrefs": [
+            "http://www.breweryhistory.com/journal/archive/113/bh-113-027.html"
+        ]
+    },
+    "bailey-pauls-beer": {
+        "authors": "Bailey, P.",
+        "title": "Paul's Beer & Travel Blog",
+        "hrefs": ["https://baileysbeerblog.blogspot.com"]
+    },
+    "belgian-beers-history-globalization": {
+        "authors": "Persyn, D., Swinnen, J. F. M., Vanormelingen, S.",
+        "title": "Belgian Beers: Where History Meets Globalization",
+        "subtitle": ["LICOS Discussion Paper No. 271"],
+        "publicationDate": "2010",
+        "hrefs": ["https://www.econstor.eu/handle/10419/74982"]
+    },
+    "bennett-brewsters": {
+        "authors": "Bennett, J. M.",
+        "title": "Ale, Beer, and Brewsters in England",
+        "subtitle": ["Women's Work in a Changing World, 1300-1600"],
+        "publicationDate": "1996",
+        "hrefs": ["isbn:9780195126501"]
+    },
+    "boak-and-bailey": {
+        "authors": "Boak, J., Bailey, R.",
+        "title": "Boak & Bailey's Beer Blog",
+        "hrefs": ["https://boakandbailey.com/"]
+    },
+    "brewing-in-burton": {
+        "authors": "Webster, I.",
+        "title": "Brewing in Burton upon Trent",
+        "publicationDate": "2018",
+        "hrefs": ["isbn:9781445670553"]
+    },
+    "brew-like-a-monk": {
+        "authors": "Hieronymus, S.",
+        "title": "Brew Like a Monk",
+        "subtitle": [
+            "Trappist, Abbey, and Strong Belgian Ales and How to Brew Them"
+        ],
+        "publicationDate": "2005",
+        "hrefs": ["isbn:093738187X"]
+    },
+    "briggs-malts": {
+        "authors": "Briggs, D. E.",
+        "title": "Malts and Malting",
+        "publicationDate": "1998",
+        "hrefs": ["isbn:0412298007"]
+    },
+    "cornell-amber-gold-black": {
+        "authors": "Cornell, M.",
+        "title": "Amber, Gold & Black",
+        "subtitle": ["The History of Britain's Great Beers"],
+        "publicationDate": "2010",
+        "hrefs": ["isbn:9780752475943"]
+    },
+    "cornell-le-coq": {
+        "authors": "Cornell, M.",
+        "title": "Albert Le Coq and the Russian Stout Trade",
+        "subtitle": ["Brewery History, 172"],
+        "publicationDate": "2017",
+        "hrefs": ["http://www.breweryhistory.com/journal/archive/172/LeCoq.pdf"]
+    },
+    "damerow-sumerian-beer": {
+        "authors": "Damerow, P.",
+        "title": "Sumerian Beer",
+        "subtitle": [
+            "The Origins of Brewing Technology in Ancient Mesopotamia",
+            "Cuneiform Digital Library Journal, 2012:002"
+        ],
+        "publicationDate": "2012",
+        "hrefs": ["https://cdli.ucla.edu/pubs/cdlj/2012/cdlj2012_002.html"]
+    },
+    "dietler-alcohol": {
+        "authors": "Dietler, M.",
+        "title": "Alcohol",
+        "subtitle": [
+            "Anthropological/Archaeological Perspectives",
+            "Annual Review of Anthropology, 2006. 35:229–49:230"
+        ],
+        "publicationDate": "2006",
+        "hrefs": [
+            "https://www.academia.edu/272118/Alcohol_Anthropological_Archaeological_Perspectives"
+        ]
+    },
+    "dijk-craft-netherlands": {
+        "authors": "Dijk, M., Kroezen, J., Slob, B.",
+        "title": "From Pilsner Desert to Craft Beer Oasis",
+        "subtitle": ["The Rise of Craft Brewing in the Netherlands"],
+        "publicationDate": "2018",
+        "hrefs": [
+            "https://www.researchgate.net/publication/321947981_From_Pilsner_Desert_to_Craft_Beer_Oasis_The_Rise_of_Craft_Brewing_in_the_Netherlands"
+        ]
+    },
+    "durov-peter-beer": {
+        "authors": "Дуров, И. Г.",
+        "title": "Производство и обеспечение пивом кораблей Балтийского флота при Петре Великом",
+        "subtitle": ["Военно-исторический журнал"],
+        "publicationDate": "2014",
+        "hrefs": [
+            "http://history.milportal.ru/proizvodstvo-i-obespechenie-pivom-korablej-baltijskogo-flota-pri-petre-velikom/"
+        ]
+    },
+    "gallone-yeast": {
+        "authors": "Gallone, B., Mertens, S., Gordon, J. L., Maere, S., Verstrepen, K., Steensels, J.",
+        "title": "Origins, Evolution, Domestication and Diversity of Saccharomyces Beer Yeasts",
+        "subtitle": ["Current Opinion in Biotechnology", "Volume 49"],
+        "publicationDate": "2017",
+        "hrefs": [
+            "https://www.sciencedirect.com/journal/current-opinion-in-biotechnology/vol/49/suppl/C"
+        ]
+    },
+    "george-gilgamesh": {
+        "authors": "",
+        "title": "The Epic of Gilgamesh",
+        "subtitle": [
+            "A New Translation",
+            "Translated with an Introduction by Andrew George"
+        ],
+        "publicationDate": "1999",
+        "hrefs": [
+            "https://www.academia.edu/16568346/Epic_of_Gilgamesh_The_George_trans_Penguin_1999_",
+            "isbn:0140447210"
+        ]
+    },
+    "gillman-beer-et-seq": {
+        "authors": "Gillman, G.",
+        "title": "Gary Gillman's Beer et seq.",
+        "hrefs": ["https://www.beeretseq.com/"]
+    },
+    "guinard-lambic": {
+        "authors": "Guinard, J.",
+        "title": "Lambic",
+        "publicationDate": "1990",
+        "hrefs": ["isbn:0937381225"]
+    },
+    "hallen-belgian-industry": {
+        "authors": "Hallen, van der P.",
+        "title": "Concentration in the Belgian Brewing Industry and the Breakthrough of Lager in the Interwar Years",
+        "subtitle": [
+            "Center for Economic Studies Discussions Paper Series (DPS) 07.28"
+        ],
+        "publicationDate": "2007",
+        "hrefs": ["https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1024699"]
+    },
+    "hindy-revolution": {
+        "authors": "Hindy, S.",
+        "title": "The Craft Beer Revolution",
+        "subtitle": [
+            "How a Band of Microbrewers Is Transforming the World's Favorite Drink"
+        ],
+        "publicationDate": "2014",
+        "hrefs": ["isbn:9781137278760"]
+    },
+    "hornsey-history": {
+        "authors": "Hornsey, I. S.",
+        "title": "A History of Beer and Brewing",
+        "publicationDate": "2008",
+        "hrefs": ["isbn:0854046305"]
+    },
+    "hors-categorie": {
+        "authors": "Janssen, D.",
+        "title": "Hors Catégorie Brewing",
+        "hrefs": ["http://www.horscategoriebrewing.com"]
+    },
+    "howard-globalization": {
+        "authors": "Howard, P. H.",
+        "title": "Too Big to Ale?",
+        "subtitle": ["Globalization and Consolidation in the Beer Industry"],
+        "publicationDate": "2013",
+        "hrefs": ["https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2268705"]
+    },
+    "hymn-to-ninkasi": {
+        "authors": "",
+        "title": "A Hymn to Ninkasi",
+        "hrefs": [
+            "https://etcsl.orinst.ox.ac.uk/cgi-bin/etcsl.cgi?text=t.4.23.1&display=Crit&charenc=gcirc&lineid=t4231.p1#t4231.p1"
+        ]
+    },
+    "jackson-beer-hunter": {
+        "authors": "Jackson, M.",
+        "title": "The Beer Hunter",
+        "hrefs": ["http://www.beerhunter.com/index.html"]
+    },
+    "jackson-guide": {
+        "authors": "Jackson, M.",
+        "title": "The New World Guide to Beer",
+        "publicationDate": "1997",
+        "hrefs": ["isbn:0894712926"]
+    },
+    "johns-laws": {
+        "authors": "Johns, C. H. W.",
+        "title": "Babylonian and Assyrian Laws, Contracts and Letters",
+        "publicationDate": "1904",
+        "hrefs": ["https://www.gutenberg.org/ebooks/28674"]
+    },
+    "krenzke-change-is-brewing": {
+        "authors": "Krenzke, J. R.",
+        "title": "Change Is Brewing",
+        "subtitle": [
+            "The Industrialization of the London Beer-Brewing Trade, 1400-1750",
+            "Dissertations. 1276"
+        ],
+        "publicationDate": "2014",
+        "hrefs": ["https://ecommons.luc.edu/luc_diss/1276/"]
+    },
+    "lacambre": {
+        "authors": "Lacambre, G.",
+        "title": "Traité complet de la fabrication des bières et de la distillation des grains, pommes de terre, vins, betteraves, mélasses, etc.",
+        "publicationDate": "1851",
+        "hrefs": [
+            "https://www.google.com/books/edition/Trait%C3%A9_complet_de_la_fabrication_des_bi/yBQTAAAAQAAJ"
+        ]
+    },
+    "lambic-info": {
+        "authors": "",
+        "title": "Lambic.Info",
+        "hrefs": ["https://www.lambic.info/"]
+    },
+    "larsblog": {
+        "authors": "Garshol, L. M.",
+        "title": "Larsblog",
+        "hrefs": ["https://www.garshol.priv.no"]
+    },
+    "liu-et-al-raqefet": {
+        "authors": "Liu, L., Wang, J., Rosenberg, D., Zhao, H., Lengyel, G., Nadel, D.",
+        "title": "Fermented Beverage and Food Storage in 13,000 y-old Stone Mortars at Raqefet Cave, Israel",
+        "subtitle": [
+            "Investigating Natufian Ritual Feasting",
+            "Journal of Archaeological Science: Reports",
+            "Volume 21, October 2018"
+        ],
+        "publicationDate": "2018",
+        "hrefs": [
+            "https://www.sciencedirect.com/science/article/abs/pii/S2352409X18303468"
+        ]
+    },
+    "meussdoerffer-history": {
+        "authors": "Meussdoerffer, F. G.",
+        "title": "A Comprehensive History of Beer Brewing",
+        "subtitle": [
+            "Handbook of Brewing: Processes, Technology, Markets",
+            "Edited by H. M. Eßlinger (2009)"
+        ],
+        "publicationDate": "2009",
+        "hrefs": [
+            "https://www.academia.edu/4421107/1_A_Comprehensive_History_of_Beer_Brewing_1",
+            "isbn:9783527316748"
+        ]
+    },
+    "mulder-lost-beers": {
+        "authors": "Mulder, R.",
+        "title": "Lost Beers",
+        "hrefs": ["https://lostbeers.com"]
+    },
+    "nelson-antiquity": {
+        "authors": "Nelson, M.",
+        "title": "Beer in Greco-Roman Antiquity",
+        "publicationDate": "2001",
+        "hrefs": [
+            "https://www.academia.edu/6156225/Beer_in_Greco-Roman_Antiquity"
+        ]
+    },
+    "nelson-barbarian-beverage": {
+        "authors": "Nelson, M.",
+        "title": "The Barbarian's Beverage",
+        "subtitle": ["A History of Beer in Ancient Europe"],
+        "publicationDate": "2005",
+        "hrefs": ["isbn:020330912X"]
+    },
+    "oxford-companion": {
+        "authors": "",
+        "title": "The Oxford Companion to Beer",
+        "subtitle": ["Edited by Garrett Oliver"],
+        "publicationDate": "2012",
+        "hrefs": ["isbn:0195367138"]
+    },
+    "pattinson-shut-up": {
+        "authors": "Pattinson, R.",
+        "title": "Shut up about Barclay Perkins",
+        "hrefs": ["http://barclayperkins.blogspot.com/"]
+    },
+    "poelmans-taylor-diversity": {
+        "authors": "Poelmans, E., Taylor, J. E.",
+        "title": "Belgium's Historic Beer Diversity",
+        "subtitle": [
+            "Should We Raise a Pint to Institutions?",
+            "Journal of Institutional Economics",
+            "Accepted Manuscript (January 24, 2019)"
+        ],
+        "publicationDate": "2019",
+        "hrefs": [
+            "https://www.cambridge.org/core/journals/journal-of-institutional-economics/article/abs/belgiums-historic-beer-diversity-should-we-raise-a-pint-to-institutions/13EAB773C968405AEE9D95C6780A39EB"
+        ]
+    },
+    "poelmans-swinnen-economic-history": {
+        "authors": "Poelmans, E., Swinnen, J. F. M.",
+        "title": "A Brief Economic History of Beer",
+        "publicationDate": "2016",
+        "hrefs": [
+            "https://www.researchgate.net/publication/268043355_A_Brief_Economic_History_of_Beer"
+        ]
+    },
+    "poelmans-swinnen-economy": {
+        "authors": "Poelmans, E., Swinnen, J. F. M.",
+        "title": "From Monasteries to Multinationals (and Back)",
+        "subtitle": [
+            "A Historical Review of the Beer Economy",
+            "Journal of Wine Economics, Volume 6, Issue 2"
+        ],
+        "publicationDate": "2012",
+        "hrefs": ["https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1995425"]
+    },
+    "rail-beer-culture": {
+        "authors": "Rail, E.",
+        "title": "Beer Culture",
+        "subtitle": [
+            "Stories about Great Beer from the Countries that Invented It"
+        ],
+        "hrefs": ["http://www.beerculture.org/"]
+    },
+    "ruis-gruit": {
+        "authors": "Ruis, F.",
+        "title": "A Note on the Essence of Gruit",
+        "subtitle": ["Brewery History, 166"],
+        "publicationDate": "2016",
+        "hrefs": [
+            "http://www.breweryhistory.com/journal/archive/166/index.html"
+        ]
+    },
+    "schwartz-pint-of-past": {
+        "authors": "Schwartz, G.",
+        "title": "A Pint of the Past",
+        "subtitle": [
+            "Assessing Authenticity in Modern Versions of Ancient and Historic Ales",
+            "Brewery History, 154"
+        ],
+        "publicationDate": "2013",
+        "hrefs": [
+            "http://www.breweryhistory.com/journal/archive/154/index.html"
+        ]
+    },
+    "spitaels-diversity": {
+        "authors": "Spitaels, F., Wieme, A. D., Janssens, M., Aerts, M., Daniel, H.-M., Van Landschoot, A., De Vuyst, L., Vandamme, P.",
+        "title": "The Microbial Diversity of Traditional Spontaneously Fermented Lambic Beer",
+        "subtitle": ["PLOS ONE, April 2014", "Volume 9 | Issue 4 | e95384"],
+        "publicationDate": "2014",
+        "hrefs": [
+            "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0095384"
+        ]
+    },
+    "spontaneous-beer-fermentation": {
+        "authors": "Oevelen, D. van, Spaepen, M., Timmermans, P., Verachtert, H.",
+        "title": "Microbiological Aspects of Spontaneous Wort Fermentation in the Production of Lambic and Gueuze",
+        "publicationDate": "1977",
+        "hrefs": [
+            "https://onlinelibrary.wiley.com/doi/abs/10.1002/j.2050-0416.1977.tb03825.x"
+        ]
+    },
+    "steele-ipa": {
+        "authors": "Steele, M.",
+        "title": "IPA",
+        "subtitle": [
+            "Brewing Techniques, Recipes, and the Evolution of India Pale Ale"
+        ],
+        "publicationDate": "2012",
+        "hrefs": ["isbn:1938469003"]
+    },
+    "steen-speciale": {
+        "authors": "Van den Steen, J.",
+        "title": "Ale Speciale Belge",
+        "publicationDate": "2016",
+        "hrefs": ["isbn:9401405867"]
+    },
+    "stika-celtic-beer": {
+        "authors": "Stika, H.-P.",
+        "title": "Early Iron Age and Late Mediaeval Malt Finds from Germany",
+        "subtitle": [
+            "Attempts at Reconstruction of Early Celtic Brewing and the Taste of Celtic Beer",
+            "Archaeological and Anthropological Sciences, 3(1):41-48"
+        ],
+        "publicationDate": "2011",
+        "hrefs": [
+            "https://www.researchgate.net/publication/225682712_Early_Iron_Age_and_Late_Mediaeval_malt_finds_from_Germany-attempts_at_reconstruction_of_early_Celtic_brewing_and_the_taste_of_Celtic_beer"
+        ]
+    },
+    "swinnen-briski-beeronomics": {
+        "authors": "Swinnen, J., Briski, D.",
+        "title": "Beeronomics",
+        "subtitle": ["How Beer Explains the World"],
+        "publicationDate": "2017",
+        "hrefs": ["isbn:0198808305"]
+    },
+    "unger-holland": {
+        "authors": "Unger, R. W.",
+        "title": "A History of Brewing in Holland: 900-1900",
+        "subtitle": ["Economy, Technology and the State"],
+        "publicationDate": "2001",
+        "hrefs": ["isbn:9004120378"]
+    },
+    "unger-middle-ages": {
+        "authors": "Unger, R. W.",
+        "title": "Beer in the Middle Ages and the Renaissance",
+        "publicationDate": "2004",
+        "hrefs": ["isbn:0812219996"]
+    },
+    "verberg-blog": {
+        "authors": "Verberg, S.",
+        "title": "Medieval Mead and Beer",
+        "subtitle": ["Experimental Brewing with Medieval Flair"],
+        "hrefs": ["https://medievalmeadandbeer.wordpress.com/"]
+    },
+    "verberg-gruit": {
+        "authors": "Verberg, S.",
+        "title": "The Rise and Fall of Gruit",
+        "subtitle": ["Brewery History, 174"],
+        "publicationDate": "2018",
+        "hrefs": [
+            "http://www.breweryhistory.com/journal/archive/174/index.html"
+        ]
+    },
+    "zythophile": {
+        "authors": "Cornell, M.",
+        "title": "Zythophile",
+        "hrefs": ["https://zythophile.co.uk/"]
+    }
+}

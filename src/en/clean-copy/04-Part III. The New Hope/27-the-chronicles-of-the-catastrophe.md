@@ -1,0 +1,56 @@
+### The Chronicles of the Catastrophe
+
+The first half of the 20th century with all the wars, depressions, and prohibition laws was a long-lasting shock for beer-makers. The result of the shock was an unprecedented consolidation and even a monopolization of the brewing industry. The number of independent beer producers started its free fall at the beginning of the 20th century and eventually decreased several dozen times, in some cases exponentially, by the 1980s.[ref:poelmans-swinnen-economic-history p. 20]()[ref:dijk-craft-netherlands p. 10]()
+
+| Year  | Number of breweries in the UK | Belgium | USA | The Netherlands |
+|:-----:|------:|------:|------:|--------:|
+| 1900  | 6447  | 3223  | 1816  | ~500 |
+| 1920  | 2914  | 2013  | —     | ~200 |
+| 1950  | 567   | 663   | 407   | ~100 |
+| 1980  | 142   | 123   | 101   | 13   |
+
+Those countries that hadn't had extensive beer traditions of their own might still have the two-producer duopoly as of today, and some markets (like South Africa, Turkey, or Colombia) are dominated by a single company controlling more than 70% of the entire beer production.[ref:howard-globalization p. 4]()
+
+The natural result of the consolidation was that not only the producers' numbers collapsed but also the number of available beer styles as well — i.e., the entire assortment was reduced to pale and dark lagers only (plus occasional unfiltered varieties). Even in Belgium, the market share of lagers was 55% as early as 1928, and since then it increased to 70%.[ref:hallen-belgian-industry p. 23]() In the United States, 101 breweries were producing in 1970 just two porters[ref Jankowski, B. (2012) American Porters](https://www.morebeer.com/articles/american_porters) and one IPA.[ref:steele-ipa see chapter 6]()
+
+One of the notable exceptions was the United Kingdom, where lagers were losing to bitters and stouts up until the 1990s — although, it didn't prevent the industry from being monopolized. In the 1980s, the UK's six largest brewers produced 75% of all beer in the country and controlled almost every pub.[ref Development Of the UK Market For Beer, 1989-2004](https://publications.parliament.uk/pa/cm200405/cmselect/cmtrdind/128/12805.htm)
+
+The unification of the product led to the consolidation of the market. The incessant process of mergers and acquisitions had finally culminated in creating the global beer conglomerate AB InBev, which consumed American Annheuser-Busch, Brazilian Ambev (which was, in turn, the joint venture of Brazilian brewers Antarctica and Brahma), and Belgian Interbrew (which was the result of the Artois-Pidboef merger), joined by SABMiller (which in turn was created after the SAB and Miller deal) in 2016. In some countries, the AB InBev market share exceeds 90% (for example, in Brazil and Uruguay) and even 99% (in the Dominican Republic).[ref Beer by the Numbers: A Look Inside the Global Beer Market](https://web.archive.org/web/20221108095128/https://www.nbwa.org/resources/look-inside-global-beer-market)
+
+This company — as well as the smaller conglomerates: Heineken N.V., Carlsberg Group, MillerCoors, and China Resources Snow Breweries Ltd. — owns literally hundreds of beer brands. Does it even bear mentioning that almost all of these brands are totally identical pale lagers that the average consumers aren't able to *truly* distinguish from one another?[ref:howard-globalization p. 2]() In 2012, the four largest brewing companies in the world controlled 70% of the market revenue[ref:howard-globalization p. 1]() — the unprecedented centralization had surpassed even that from the London porter oligopoly times.
+
+#### First They Ignore You
+
+This story, of the rebirth of the brewing from the ashes, in defiance of the industry giants, valued in the hundreds of billions of dollars is spectacular in its own right. But the fact that it was started *by one single person* makes it truly extraordinary.
+
+Of course, events of such a magnitude never happen because of someone's individual efforts only. The changes built up for decades thanks to many people and are finally realized with the help of thousands, even millions of enthusiasts. Still, the fact remains: for eleven years, from 1965 to 1976, there was exactly one man in the world's craft beer scene.
+
+Frederick Louis “Fritz” Maytag III was born in Newton, Iowa, in 1937 to a family of hereditary entrepreneurs. His great-grandfather, Frederick Louis Maytag, was the founder of the Maytag Corporation that was making household appliances (washing machines among others). His father, Frederick Louis Maytag II, founded the Maytag Dairy Farm company that produced dairy products. The hero of this story founded the craft revolution, though he himself never envisioned the role he was invariably about to play.
+
+In August, 1965, the smallest of the 50 US breweries, Anchor Brewing Company of San Francisco, California, was scheduled to be closed. (As we remember, there were 101 breweries in the US, but there were just 50 independent companies that owned them.) Anchor was producing a specialty beer named “American Steam Beer,” which is made by allowing lager yeasts to ferment at higher temperatures. This style was considered to be a traditional American one (locally referred to as *California common* beer) and was enjoying some limited popularity among the frequenters (one of whom was Maytag) of the “Old Spaghetti Factory” bar in San Francisco. As Fritz would later tell, he wasn't actually very fond of *steam beer*, it was rather the concept of a traditional local beverage that attracted him.[ref Anchor Aweigh, Full Steam Ahead : 27 years ago, Fritz Maytag launched the ultimate California brewery--small, weird and the start of a national trend.](https://www.latimes.com/archives/la-xpm-1996-03-10-tm-45141-story.html)
+
+After learning from the bar owner that the *steam beer* production was to shut down, Maytag bought 51% of the shares (eventually increasing up to 100% in 1965) — which cost him “little more than a used car might,” as Fritz later admitted. This decision was, if not exactly spontaneous, at the very least optimistic. Firstly, Maytag had no idea of how to run the brewery. Secondly, the business health of Anchor Brewing Company was somewhere in-between intensive care and the morgue. Thousands of decisions like that in the 20th-century world had ended ingloriously — with bankruptcy and a fresh grave in the cemetery of history.
+
+The Anchor brewery was doomed, as it had no chance to compete against the giants that were producing predictable lagers at a colossal scale. Anchor beer wasn't even bottled, the quality left a lot to be desired, and the entirety of their sales network comprised only several local bars. While an average American brewery in 1965 was producing more than 5 million liters of beer per month,[ref:poelmans-swinnen-economic-history p. 20]() for the same period Anchor could brew… 100 kegs.
+
+So, how was Maytag able not only to save the brewery but to make it a rival to giants?
+
+First, he took the task of organizing beer production seriously and created a “laboratory” on Eighth Street. Cheap substitutes, like corn syrup, were dropped and the beer taste was improved (surprisingly, by returning to the original 19th-century recipe). Most importantly, Maytag's team managed to achieve a sustainable shelf life without employing preservatives.
+
+Second, Anchor started working for its consumer, selling bottles not only in local bars but across the entire country, as Maytag had found distributors for the product. The company employed myriad marketing opportunities to promote the beer.
+
+And third, with his relentless advocacy and passion for the beer “alchemy”, Fritz Maytag encouraged many people to rebel against the world of identical pale lagers. California gradually became the center of what was later named “the craft revolution.” Many other beer enthusiasts started to open their microbreweries inspired by Maytag and Anchor Brewing Company example.[ref:acitelli-audacity see “The Last Shall Be First”]()
+
+#### How to Taste It
+
+Though Maytag sold Anchor Brewing Company in 2010, his work lives on. The American Steam Beer aka the California Common is being made by many small independent breweries (just like Fritz was dreaming of): American Toppling Goliath, Widmer Brothers, Smuttynose, Port City Brewing, and European Mikkeler and To Øl. Of course, *Anchor Steam* should be considered the canonical one.
+
+#### On “Craft” and “The Craft Revolution”
+
+In the previous chapters, we have used the phrase “craft breweries” quite a handful of times, and this part of the book will be exclusively dedicated to them, so it would be nice to actually define “craft” before telling its history.
+
+Alas, it's not that simple. Early craft brewers defined themselves through quality: they made better beer and did not use cheap ingredients. However, as we all understand, it's not entirely true. A brewery is a commercial venture which must economize. The question is just where the borderline is: which cost-saving practices are acceptable and which are not.
+
+Later, the “microbrewery” term emerged, and beers made by these small independent producers became the “craft” ones. Yet, this designation becomes outdated as well, as many craft brewers have built real factories since then and their output is now pretty impressive: in the tens of millions of liters if not hundreds. Also, many of them are not independent. Some have in fact been sold to giant corporations (like Anchor Brewing Company that Maytag ceded to Sapporo Holdings) or were from the beginning special “craft” branches of such enterprises (like the Blue Moon Brewing Co. that was launched by MillerCoors).
+
+Today, the best definition of “craft” is a “subculture”: a subculture of people who value and appreciate diverse beers.

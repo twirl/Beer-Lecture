@@ -9,9 +9,11 @@
         "node": "^23.0.0"
     },
     "devDependencies": {
-        "@twirl/book-builder": "^1.0.5"
+        "@twirl/book-builder": "^1.0.5",
+        "@types/hast": "^3.0.4",
+        "unified": "^11.0.5"
     },
     "scripts": {
-        "build": "node --experimental-transform-types build.ts"
+        "build": "node --experimental-transform-types scripts/build.ts"
     }
 }

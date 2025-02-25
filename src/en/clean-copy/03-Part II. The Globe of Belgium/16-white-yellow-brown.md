@@ -1,0 +1,67 @@
+### White, Yellow, Brown
+
+And still: what did 19th-century Belgians drink exactly? Certainly, it's very hard to categorize fifteen thousand beers, but we may try to highlight some trends and summarize common knowledge. From the parliamentary documents of the time (which mostly discuss the nuances of taxation), one might compile the following table with the prices for the most common beer types:[ref:mulder-lost-beers Beer riots in 19th century Brussels](https://lostbeers.com/beer-riots-in-19th-century-brussels/)
+
+| **Beer style**              | Price, centimes per glass |
+|--------------------------|---------------------------|
+| Bavière                  | 18,00 / 18,57 |
+| White (of Leuven)        | 8,83 / 9,50 |
+| Brown                    | 10,34 / 10,72 |
+| Brown (of Diest)         | 9,00 |
+| Faro                     | 12,00 / 12,00 |
+| Hoegaarden               | 8,50 / 9,00 |
+| Yellow                   | 7,53 / 7,51 |
+| Lambic                   | 15,67 / 16,00 |
+| Mars                     | 7,50 / 9,00 |
+| Peeterman                | 10,00 / 10,00 |
+| Uitzet                   | 10,40 / 11,50 |
+
+The first number stands for a price of a mug of beer in regions where no local taxes on beer imports (“octrois”) existed, while the second is for regions that levied taxes.
+
+“Bavière” means “Bavaria” in French, i.e., German lagers. As you can see, it was a very expensive beer and common folk couldn't afford it.
+
+Other beers might be rather unappetizingly split into three large categories:
+
+  * “White” beers (brewed from wind-dried malt and unmalted wheat) that we described in the previous chapter; two main “white” varieties were ones of Leuven and Hoegaarden beers, with *Peeterman* being closely related.
+  * “Yellow” beers (a bit darker than “white,” usually with a large proportion of wheat in the grist); the most widespread (and cheapest) category of beer, plainly speaking, just regular pale beers (Belgium was one of the most prominent coal suppliers in Europe those times, so making pale malts was not a problem) brewed by small local manufacturers; “Faro,” “Lambic,” and “Mars” were considered “yellow” as well.
+  * “Brown” (i.e., dark) beers, represented here as simply “brown” with two of its local varieties: one from Ghent (“uitzet”) and one from Diest.
+
+#### The Full Treatise
+
+In 1851, Georges Lacambre, a French engineer and a Belgian brewer, penned a rather large (more than 500 pages) book named “The Full Treatise on Brewing Beer and the Distillation of Grains,” which we might without any doubt call *the* primary source for any researcher of the Belgian brewing tradition. Among many other things, it features detailed recipes for Belgian beers of that period. 
+
+It's not that easy to acquire the text (it exists in a scanned form,[ref:lacambre Traité complet de la fabrication des bières et de la distillation des grains, pommes de terre, vins, betteraves, mélasses, etc.]() but the French script is not digitized). However, the book is totally worth it as it provides full and complete articles on period brewing techniques, and also wondrous descriptions of bizarre Belgian eclectics.
+
+Lacambre (who, let us remind you, was a French engineer, and furthermore an apt assimilator of German and English technological advancements) described several important features of Belgian brewing including:
+
+  * There was a huge amount of different regional beer styles and their varieties.
+  * Wheat and other cereals were extensively used (he estimated that three-quarters of the Belgian beer industry output was brewed with wheat):
+      * Beer from 100% barley was rather novel. For example, in the chapter dedicated to Leuven, Lacambre points out (with a certain degree of boasting) that the only Leuven brewery capable of producing beer from pure barley was Lacambre's own installation built “several years ago” as other brewers didn't possess the technical means of doing so.
+      * Disregarding the fact that the author clearly considers all-barley beer to be more technologically advanced, he still admits that wheat beer sometimes has a “more palatable taste than the barley one, especially served fresh or young.” It even “reaches the subtlety of wine.”
+  * Belgian artisanal brewing was *quite rational but rather unproductive*.
+
+Fun Fact. According to Lacambre, many Belgian beers, including, let's say, *lambic* and Leuven “white” beer had been degraded more than 30 years before the book was written, and in Lacambre's times (the book was issued in 1851) they were already brewed negligently. The final section of the book is dedicated mainly to criticizing Belgian laws that led to the deterioration of the industry ¯\\\_(ツ)_/¯.
+
+#### How to Taste It
+
+Out of all these beers, three kinds survived the 20th century (being almost intact): *lambic* (“Faro” and “Lambic” itself), *saison* (a subtype of “Mars”), and Flemish brown. We will dedicate a separate chapter to each of them.
+
+Alas, all of the other thousands of unique beer styles were lost. It may come as no surprise that the process of creating traditional Belgian beer involved several dozens of manual artisanal procedures: germinate the malt to three quarters, dry until it reaches an amber hue, get rid of the rootlets, leave it in the open air for three-four days to absorb some moisture, lay a 2-3 inch layer of wheat husks on the floor of the mash tun, strain the wort through the false bottom, and so on, and on, and on. Of course, only the geek-reenactors are following those precise instructions nowadays, and fortunately for us in the 21st century, we've got some authentic brews! News regarding re-creating historical beers is not a daily occurrence but still appears quite regularly. We know about five reconstructions claiming to reproduce old recipes more or less precisely.
+
+  1. *Peeterman*: a thicker and darker “honey” variety of Leuven “white” beer (“Peeterman,” meaning “men of Peter,” was a nickname of the citizens of Leuven, the main square of which hosts St. Peter's Church), being traditionally brewed with wind-dried barley malt and unmalted wheat.[ref:pattinson-shut-up Brewing in Leuven in the 1830s](http://barclayperkins.blogspot.com/2009/05/brewing-in-leuven-in-1830s.html) Today, *Peeterman* is produced by the Breda brewery from Leuven.
+
+      (A sad story: Leuven is the birthplace of the Artois company that eventually evolved into the world's largest beer producer, AB InBev, the headquarters of which is still located in Leuven. *Peeterman* was a signature Artois beer for many decades. However, the world's flagship brewer discontinued the *Peeterman* production without a second thought.)
+
+  2. *Uitzet*: a “brown” beer from Eastern Flanders; in 1798, a Ghent doctor named Wauters wrote a whole treatise on this beer claiming that *uitzet* was invented in Wetteren in 1730. It had a very clear yellow-brown color and in 1791 it saved people of the town from the dysentery epidemic, being an extremely simple and healthy drink.[ref:mulder-lost-beers Lost Belgian beers: Uitzet](https://lostbeers.com/lost-belgian-beers-uitzet/)
+
+      Today, *uitzet* is produced by the Paeleman brewery in once-saved Wetteren.
+
+  3. *Seef*, a “white” beer from Anwerp, which was once so popular that one of the city districts is its namesake.[ref:mulder-lost-beers A recipe for Antwerp seef](https://lostbeers.com/a-recipe-for-antwerp-seef/)
+
+      Production was reinstated by Johan Van Dyck, a beer enthusiast and coincidentally then a marketing specialist at the Duvel Moortgat brewery, and is now being sold under the “Seefbier by Antwerpse Brouw Compagnie” brand. Oats and buckwheat are included in the recipe, as they should be.
+
+  4. *Jack-Op*: a blended beer that was produced by mixing “brown” beer with *lambic*. It enjoyed huge success at the end of the 19th century, and at the beginning of the 21st, manufacturing was resumed under Frank Boon and is being produced by the brewery of the same name.[ref:mulder-lost-beers Five “lost” Belgian beer brands that came back on the market](https://lostbeers.com/five-lost-belgian-beer-brands-that-came-back-on-the-market/)
+
+  5. *Zoeg*: a pale sweet beer that *almost* survived the 20th century (it was produced in Tienen until 1955). Three of the five brewery founders were medics, so the beer was known as “the doctors' beer”; according to a local legend, the doctors were rather excessive drinkers so the logo featured a pig[ref Mattheus, M. (2013) De Zoeg, een heel apart verhaal](https://tienentroef.be/wp-content/uploads/2017/05/BierstripTekeningenWardBroesVerhaalAMSomers.pdf). In 2010, the beer's production was resumed by a Tienen entrepreneur, Miel Mattheus, and is now being sold as *Zoeg Tienen* by Brouwerij De Vlier.
+
+(It is probable that there are many more historically-precise reconstructions than these five: at least a dozen other beers are said to have been recreated after authentic recipes. The author of this book leans toward considering them all fantastical interpretations on historical themes — and might well be wrong as it's usually not that simple to check such claims.)

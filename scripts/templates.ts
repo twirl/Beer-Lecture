@@ -1,13 +1,14 @@
 import { readFile } from 'node:fs/promises';
 
 import {
-    AImgParams,
+    type AImgParams,
+    type BibliographyItem,
     DefaultTemplates,
     escapeHtml,
-    HtmlString,
-    Path,
+    type HtmlString,
+    type Path,
     Section,
-    Strings,
+    type Strings,
     Structure
 } from '@twirl/book-builder';
 import { resolve } from 'node:path';
@@ -26,7 +27,6 @@ export interface ExtraStrings extends Strings {
         supportThisWork: string;
         support: [];
         content: string[];
-        liveExamples: string;
         download: string;
         or: string;
         readOnline: string;
@@ -48,36 +48,52 @@ export interface ExtraStrings extends Strings {
     subtitle: string;
     frontPage: {
         title: string;
-        subtitle: string;
+        subTitle: string;
         contents: string[];
     };
-    clickToEnlarge: string;
     imageCredit: string;
+    publicDomain: string;
 }
 
 export class CustomTemplates extends DefaultTemplates<ExtraStrings> {
     constructor(
-        private readonly target: 'epub' | 'html' | 'pdf' | 'tex',
+        private readonly target: 'epub' | 'html' | 'pdf',
         ...args: ConstructorParameters<typeof DefaultTemplates<ExtraStrings>>
     ) {
         super(...args);
     }
 
+    public bibliographyItemShortName(bibliographyItem: BibliographyItem) {
+        return bibliographyItem.authors !== ''
+            ? `${bibliographyItem.authors}${
+                  bibliographyItem.publicationDate
+                      ? ` (${bibliographyItem.publicationDate})`
+                      : ''
+              }`
+            : bibliographyItem.title;
+    }
+
+    public async htmlBibliographyItemFullName(item: BibliographyItem) {
+        return (
+            item.authors !== ''
+                ? `${escapeHtml(
+                      this.bibliographyItemShortName(item)
+                  )} ${await this.htmlBibliographyItemTitle(item)}`
+                : await this.htmlBibliographyItemTitle(item)
+        ) as HtmlString;
+    }
+
     htmlImprintPages() {
-        return `<div class="cover">
-        <h1>
-            <span class="author">${this.strings.author}</span><br/>
-            <span class="title">${this.strings.frontPage.title}
-            ${
-                this.strings.frontPage.subtitle
-                    ? `:</span><br/><span class="title subtitle">${this.strings.frontPage.subtitle}</span>`
-                    : '</span><br/>'
-            }
-        </h1>
-    </div><div class="annotation"><p class="text-align-left">
-        <span>${this.strings.author}. ${this.strings.title}${
-            this.strings.subtitle ? `: ${this.strings.subtitle}` : ''
-        }.</span><br/>
+        return `<div class="cover"><h1><span class="author">${this.string(
+            'author'
+        )}</span><br/><span class="title">${
+            this.strings.frontPage.title
+        }</span><em>${this.strings.frontPage.subTitle}</em></h1></div>
+        <div class="page-break"></div>
+        <div class="annotation"><p class="text-align-left">
+        <strong>${this.string('author')}. ${this.string(
+            'title'
+        )}.</strong><br />
         <a target="_blank" href="mailto:${this.strings.links.email}">${
             this.strings.links.emailString
         }</a> &middot; <a target="_blank" href="${
@@ -85,10 +101,42 @@ export class CustomTemplates extends DefaultTemplates<ExtraStrings> {
         }">${
             this.strings.links.linkedinString
         }</a> &middot; <a target="_blank" href="${
-            this.strings.links.substackHref
-        }">${this.strings.links.substackString}</a></p>
-        ${this.strings.frontPage.contents.join('')}
-        </div><div class="page-break"></div>`;
+            this.strings.links.patreonHref
+        }">${
+            this.strings.links.patreonString
+        }</a></p>${this.strings.frontPage.contents.join('\n')}
+        <p class=\"text-align-left\">${
+            this.strings.sourceCodeAt
+        } <a target="_blank" href="${this.strings.links.githubHref}">${
+            this.strings.links.githubString
+        }</a></p>
+        </div>${this.shareList()}<div class="page-break"></div>`;
+    }
+
+    public shareList() {
+        return `<p class="share text-align-left">${
+            this.strings.sidePanel.shareTo
+        }: ${this.strings.sidePanel.services
+            .map(
+                ({ key, link }) =>
+                    `<a class="share share-${key}" href="${this.shareLink(
+                        link
+                    )}" target="_blank">${key}</a>`
+            )
+            .join(' · ')}</p>`;
+    }
+
+    public shareLink(link: string) {
+        let result = link;
+        for (const [key, value] of Object.entries(
+            this.strings.sidePanel.shareParameters
+        )) {
+            result = result.replace(
+                new RegExp(`\\$\\{${key}\\}`, 'g'),
+                encodeURIComponent(value)
+            );
+        }
+        return result;
     }
 
     public async htmlAImgTitle(params: AImgParams) {
@@ -104,15 +152,13 @@ export class CustomTemplates extends DefaultTemplates<ExtraStrings> {
     }
 
     public async htmlAImgRef(params: AImgParams) {
-        return params.href
+        return params.href && params.alt !== 'PD'
             ? `<a href="${escapeHtml(
                   params.href
-              )}" target="_black">${this.string('imageCredit')}: ${
+              )}" target="_black">${this.string('imageCredit')}: ${escapeHtml(
                   params.alt
-              }</a>`
-            : `<a href="${escapeHtml(params.src)}" target="_black">${
-                  this.strings.clickToEnlarge
-              }</a>`;
+              )}</a>`
+            : this.string('publicDomain');
     }
 
     public async htmlAImgImage(params: AImgParams) {
@@ -153,8 +199,7 @@ export class CustomTemplates extends DefaultTemplates<ExtraStrings> {
                 strings: this.strings,
                 templates: this,
                 lang: this.language
-            },
-            []
+            }
         )}</section><button type="button" class="close"></button></aside>`;
     }
 
@@ -174,7 +219,7 @@ export class CustomTemplates extends DefaultTemplates<ExtraStrings> {
                     `<li><a class="share share-${key}" href="${shareLink(
                         link,
                         sidePanel.shareParameters
-                    )}" target="_blank"> </a></li>`
+                    )}" target="_blank">&nbsp;</a></li>`
             )
             .join('')}<li class="copy-link">${
             sidePanel.copyLink
@@ -187,25 +232,17 @@ export class CustomTemplates extends DefaultTemplates<ExtraStrings> {
     }
 }
 
-export interface Example {
-    name: string;
-    path: Path;
-}
-
-export const toc = async (
-    {
-        structure,
-        strings,
-        templates,
-        lang
-    }: {
-        structure: Structure;
-        strings: ExtraStrings;
-        templates: CustomTemplates;
-        lang: string;
-    },
-    examples: Example[]
-) => {
+export const toc = async ({
+    structure,
+    strings,
+    templates,
+    lang
+}: {
+    structure: Structure;
+    strings: ExtraStrings;
+    templates: CustomTemplates;
+    lang: string;
+}) => {
     const link = linker(strings, lang);
     return `<ul class="toc">${structure
         .getSections()
@@ -233,23 +270,7 @@ export const toc = async (
                 }
             </li>`
         )
-        .join('\n')}
-        ${
-            examples.length
-                ? `<li><h4>${strings.landing.liveExamples}</h3>
-            <ul class="section">${examples
-                .map(
-                    ({ name, path }) =>
-                        `<li><a href="${escapeHtml(
-                            path
-                        )}/index.html">${escapeHtml(name)}</a></li>`
-                )
-                .join('')}
-            </ul>
-        </li>`
-                : ''
-        }
-    </ul>`;
+        .join('\n')}</ul>`;
 };
 
 export const shareLinks = (strings: ExtraStrings) =>

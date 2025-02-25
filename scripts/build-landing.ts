@@ -1,57 +1,35 @@
-import { resolve } from 'node:path';
-import { readdir, writeFile } from 'node:fs/promises';
-import { statSync } from 'node:fs';
-import { Path, Structure } from './builder-model';
+import { writeFile } from 'node:fs/promises';
+import { type Path, Structure } from '@twirl/book-builder';
 import {
     CustomTemplates,
-    Example,
-    ExtraStrings,
+    type ExtraStrings,
     linker,
     shareLink,
     toc
-} from './templates';
+} from './templates.ts';
 
 export const buildLanding = async ({
     structure,
-    examplesDir,
     lang,
     outFile,
     strings,
     templates
 }: LandingParameters) => {
-    const examples = await readdir(examplesDir);
-
-    const landingHtml = await landingTemplate(
-        {
-            structure,
-            strings,
-            lang,
-            templates
-        },
-        examples.reduce((examples: Example[], folder) => {
-            const fullName = resolve(examplesDir, folder);
-            if (statSync(fullName).isDirectory()) {
-                const name = folder.match(/^\d+\. (.+)$/)![1];
-                examples.push({
-                    name,
-                    path: `examples/${folder}` as Path
-                });
-            }
-            return examples;
-        }, [])
-    );
-    await writeFile(outFile, landingHtml);
-};
-
-export const landingTemplate = async (
-    {
+    const landingHtml = await landingTemplate({
         structure,
         strings,
         lang,
         templates
-    }: Omit<LandingParameters, 'examplesDir' | 'outFile'>,
-    examples: Example[]
-) => {
+    });
+    await writeFile(outFile, landingHtml);
+};
+
+export const landingTemplate = async ({
+    structure,
+    strings,
+    lang,
+    templates
+}: Omit<LandingParameters, 'outFile'>) => {
     const link = linker(strings, lang);
     return `<!DOCTYPE html>
 <html>
@@ -151,7 +129,7 @@ ${
         : `<p>${strings.landing.readOnline}.</p>`
 }
 <h3>${strings.toc}</h3>
-${await toc({ structure, strings, templates, lang }, examples)}
+${await toc({ structure, strings, templates, lang })}
 <p>${strings.landing.license}</p>
 <p>${strings.sourceCodeAt} <a href="${strings.links.githubHref}">${
         strings.links.githubString
@@ -171,7 +149,6 @@ ${strings.landing.footer.join('\n')}
 
 export interface LandingParameters {
     structure: Structure;
-    examplesDir: Path;
     lang: string;
     outFile: Path;
     strings: ExtraStrings;

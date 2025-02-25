@@ -1,0 +1,65 @@
+### Orange Zest, Coriander, and the Hoegaarden Milkman
+
+Belgium is a small country with a profound beer tradition that spans many centuries. Let's take, for example, Belgian white beer — *witbier* or *bière blanche*. The history of this unique beer style begins in the XV century. Modern-day Belgium was a part of the Netherlands then, which was a mercantile empire that imported lots of exotic goods from overseas territories, including spices.
+
+Most beers were sour in those days, and in order to get rid of this sourness Belgian monastic brewers from the village of Hoegaarden started experimenting with these spices. In particular, they utilized coriander and oranges from the island of Curaçao. This explains in part the origin of how the famous witbier recipe of 1445 was born. As time passed and the tradition grew, by the 18th century Hoegaarden became one vast brewery.
+
+Despite *witbier* production having all but stopped in the mid-20th century (in 1957, the last remaining manufacturer — the Tomsin brewery — was closed), the villagers did not allow the recipe to vanish. A local milkman, Pierre Celis, restored the tradition in 1965.[ref Hoegaarden. The History](http://web.archive.org/web/20211110232136/https://hoegaarden.com/the-history/)
+
+#### How to Taste It
+
+Of course, the beer lover's first choice is *Hoegaarden* itself. Apart from this, many other breweries (Belgian and American) produce *witbier*: St. Bernardus *Wit*, Allagash *White*, Blue Moon *Belgian White*, Kronenbourg *1664 Blanc*, *Blanche De Bruxelles*, and *Blanche De Namur* just to name a few.
+
+#### The Witbier Myth
+
+We hope that the reader exclaimed “what nonsense!” at least 10 times while reading the previous two paragraphs.
+
+Let's start with the fact the state of the Netherlands that had controlled Belgium did not exist in 1445, nor could it yet have New World colonies, as the Columbian expeditions happened half a century later. Furthermore, the Netherlands acquired colonies exactly because it had parted ways with Belgium in 1588 — or rather with the Habsburg empire that continued ruling Belgium until 1790. Oranges could not be known in Belgium earlier than in the 16th century as only Spanish Moors were growing citrus during this period.
+
+Coriander, on the contrary, could have easily been an ingredient in Belgian beer as it wasn't an exotic spice at all. It had been being cultivated in Europe since at least the second millennium BCE and was a part of *gruit*. 
+
+Dutch beer of the 14th-16th centuries would have been half or more oats, which was then the main cereal grain. Additionally, it would have been dark or in the best case, amber, but definitely not pale. However, there are neither oats nor dark malt in *witbier* — at least in the “classic” *Hoegaarden*.
+
+As for the sour taste of beer, late Medieval brewers were able to control the souring of beer without the use of coriander, as both chronicles and reconstructions demonstrate.[ref:larsblog Was all beer sour before Pasteur?](https://www.garshol.priv.no/blog/306.html) Furthermore, orange zest might only increase acidity. 
+
+Finally, what monks or experimentalists are we talking about? Monasteries by their social organization were obliged to be self-sustainable. This implies growing oranges locally which would be quite unrealistic in a Belgian climate. This does not even consider that it would have been city merchants and guilds, not monks, who would have been the main drivers of innovation in brewing within the 15th-century Netherlands.
+
+The answer to all these questions is quite simple. Though Pierre Celis actually procured a recipe of authentic Hoegaarden beer from Loius Tomsin himself, the newly made *witbier* had nothing to do with the original conception. The Tomsin recipe (nor the earlier ones as well) contains no oranges or coriander, but does contain oats (though let's be honest, Celis's White beer did include a small proportion of oats until the 1980s).[ref:mulder-lost-beers When Hoegaarden was still spontaneously fermented](https://lostbeers.com/when-hoegaarden-was-still-spontaneously-fermented/)
+
+In 1985, Celis sold the Hoegaarden brand to the Artois company (now AB InBev) and moved to the US, where he opened a new brewery under his own name — the Celis Brewery. American consumers began developing a taste for *witbier*, and soon other brewers started to make it — the above-mentioned Allagash, also Ommegang, Samuel Adams, Bell's, Canadian Unibroue, the mainstream giant MillerCoors (under the “Blue Moon” brand), as well as a host of smaller community brewers.
+
+We are certainly not trying to diminish Celis's achievements. He was a foundational force during the beer Renaissance of the late 20th century. His *witbier* is an elegant and balanced beer style. Still, it had nothing to do with previous generations of Hoegaarden beers. As for the tale about monks adding orange zest to pale beer in 1445, this whimsical story was likely just invented out of thin air.
+
+#### How to Taste the Authentic Hoegaarden
+
+There is no way, unfortunately. Several authentic recipes of “Belgian white beer” survived (not from the 15th century, but from the 19th). The variant described by George Lacambre in 1851 comprised wind-dried pale barley malt combined with unmalted wheat and oats.[ref:lacambre pp. 372-374]() Hoegaarden recipes also prescribed inoculating the wort with airborne yeasts (which indicates *Brettanomyces* strains with an implicit sour taste). Gravity and attenuation of this beer would have been quite modest, giving maybe 2.5% ABV. And to follow, the shelf life of this beer was several days, maybe two weeks at the outside.[ref:mulder-lost-beers When Hoegaarden was still spontaneously fermented](https://lostbeers.com/when-hoegaarden-was-still-spontaneously-fermented/) It is no surprise nothing like that is being manufactured nowadays. So your best option is to enjoy Pierre Celis's variant.
+
+#### Through the Ages
+
+If Hoegaarden is not an authentic Belgian beer, then which one is? Which beer was not solely conceived within the 20th century?
+
+  * Pilsners first occurred in Belgium at the very end of the 19th century and gained their market share during the interwar period[ref:hallen-belgian-industry p. 14]() — a striking contrast to the nearby Netherlands where almost nothing except lager was brewed, not to mention Czechia — historical Bohemia — where the pilsner revolution had ended two decades earlier.
+
+  * The main Belgian specialty — strong pale ale — was first brewed in the 1960s. Before that, all strong commercial beers were English-style barleywines.
+
+  * The famous monastery (AKA “Trappist”) beers were first produced during the interwar period. Of course, many Belgian monasteries had been brewing beer for centuries. However, if we take specific beer recipes, their history will turn out to be much more recent, barely more than a century. (The oldest one is probably *Westvleteren 8*, which was first mentioned during World War I.)
+
+  * What is now called “Abbey Beer” (in fact, commercial versions of monastery beers) started as an imitation of the Trappist beers, and therefore is even younger than them.
+
+Almost every kind of beer that now makes Belgium famous was first created in the 1960s or the interwar period, except for a few cases that we will describe in the next chapters. Furthermore, Belgian beer exports gained international market traction even later in the 1990s.[ref:mulder-lost-beers What is Belgium's oldest beer?](https://lostbeers.com/what-is-belgiums-oldest-beer/)
+
+It might appear that we're pushing the readers to a conclusion that Belgian beer culture is but a marketing ruse or grand deceit, but that's not true at all. If we take a look at the nearby Netherlands, we will learn that *not a single historical beer style* has survived post-1960. Only German and Czech-style lager makers can boast of more than a century-long history.[ref:mulder-lost-beers What is Holland's oldest beer?](https://lostbeers.com/what-is-hollands-oldest-beer/)
+
+The 1990s success of Belgian beer happened for two primary reasons. Firstly, Belgium was the only country that had preserved its originality. Secondly, it possessed not only a narrative of tradition but also a cultural zeal to maintain and perpetuate it. Unfortunately, at least in part this market emergence and processes were accompanied by active myth-making or sometimes sheer marketing fabrication. As a result, we exist within a paradox: Belgium with its beer diversity had become a Mecca for beer lovers, but it's almost impossible to find any verifiable information regarding those *traditional* beers and their history, even as we consider the recent past.
+
+#### The Real Story of Brewing in Belgium
+
+The question of why it was Belgium (and not, let's say, the Netherlands) that preserved and improved traditional brewing is definitely awaiting its researcher-champion. What we can say with assurance is that within the history of Belgium itself lie the keys to solving this riddle.
+
+Meanwhile, narrating the history of Belgium until its independence in 1830 is an unrewarding business. One risks drowning in the endless multitude of names and dates. Let us instead state the following: during the preceding ten centuries, Belgium was a territory of conflict between close and not-so-close neighbors, from the dukes of Burgundy to the emperors of Austria. We may speculate that underlying these constant political struggles resulted in a certain Belgian stubbornness and rejection of imposed *alien* traditions.
+
+Another important factor was that as Belgium finally gained independence it was a markedly underdeveloped region of Western Europe. 19th-century Belgium was an eclectic patchwork of rapidly industrializing pockets co-existing with the primitive rural agricultural sector (which included brewing). For example, the above-mentioned “white” (wind-dried) malt for white beer was made by spreading a thin layer of grain on the rooftops of barns; a method, hardly suitable for large-scale production (because of the necessity to build a myriad of such rooftops, pest control issues, the dependency on weather, etc.) and thus it was almost not used outside of Belgium.[ref:briggs-malts p. 440]()
+
+Of course, the nuances of taxation played their role as well. Belgian brewers paid their levies based on the mash tun sizes.[ref:pattinson-shut-up A British brewer describes Belgian beers in the 1880s (part four)](https://barclayperkins.blogspot.com/2020/01/a-british-brewer-describes-belgian_31.html) Additionally, not only was beer production taxed but beer transportation as well. Both factors naturally favored small artisanal producers. Opening modern pilsner breweries was a disadvantageous prospect in 19th-century Belgium as they were technologically advanced installations that generated a profit at a large production scale only. As a result, not only was the number of independent breweries stable (unlike England, Bohemia, Germany, or the Netherlands — universally everywhere as beer production became monopolized by large companies), but it was even growing. In 1900, Belgium counted 3223 breweries, 15 thousand beer varieties, 185 thousand pubs (one for every 32 citizens) — and drank close to 200 liters of beer per person per year\![ref:poelmans-taylor-diversity p. 21-22]()
+
+Fun Fact. As brewing was a major source of income for Belgian cities, town (or village) mayors were often brewers, and their election rivals, competing brewers.[ref:poelmans-taylor-diversity p. 23]()

@@ -163,11 +163,7 @@ article ul.share {
 }
 
 .side-panel ul.share li a.share-twitter {
-    background-image: url(/img/share/twitter.svg);
-}
-
-.side-panel ul.share li a.share-vk {
-    background-image: url(/img/share/vk.svg);
+    background-image: url(/img/share/x.png);
 }
 
 .side-panel ul.share li a.share-linkedin {
